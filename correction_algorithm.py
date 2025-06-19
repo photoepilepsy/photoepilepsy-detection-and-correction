@@ -326,7 +326,7 @@ class AdvancedVideoFlashCorrector:
     
     def _correct_frame_sequence(self, frames: List[np.ndarray]) -> List[np.ndarray]:
         """
-        Apply comprehensive correction to a sequence of frames with enhanced flicker detection.
+        Apply comprehensive correction to a sequence of frames.
         
         Args:
             frames: List of frames to correct
@@ -337,12 +337,9 @@ class AdvancedVideoFlashCorrector:
         if not frames:
             return frames
         
-        # Detect flickering patterns in the sequence
-        has_flickering, brightness_values, flicker_mask = self._detect_flickering(frames)
-        
         corrected_frames = []
         
-        for i, frame in enumerate(frames):
+        for frame in frames:
             # Calculate frame metrics
             metrics = self._calculate_frame_metrics(frame)
             
@@ -352,25 +349,14 @@ class AdvancedVideoFlashCorrector:
             # Convert frame to float for processing
             frame_float = frame.astype(np.float32)
             
-            # Determine if correction is needed
-            needs_correction = (has_intense_colors or 
-                              metrics['brightness'] > self.flash_threshold or
-                              has_flickering)
-            
-            if needs_correction:
+            if has_intense_colors or metrics['brightness'] > self.flash_threshold:
                 # Create adaptive overlay
                 overlay = self._create_adaptive_overlay(frame, metrics, color_mask)
                 
                 # Apply overlay with variable opacity
                 opacity = self.overlay_opacity
-                
-                # Increase opacity for flickering content
-                if has_flickering:
-                    flicker_intensity = np.mean(flicker_mask) if flicker_mask is not None else 0
-                    opacity += flicker_intensity * 0.3
-                
                 if metrics['brightness'] > 220:  # Very bright flash
-                    opacity = min(0.7, opacity + 0.2)
+                    opacity = min(0.6, opacity + 0.2)
                 
                 # Blend frame with overlay
                 corrected_frame = frame_float * (1 - opacity) + overlay * opacity
@@ -387,15 +373,6 @@ class AdvancedVideoFlashCorrector:
                     
                     corrected_frame = cv2.cvtColor(hsv.astype(np.uint8), cv2.COLOR_HSV2BGR).astype(np.float32)
                 
-                # Apply flickering-specific corrections
-                if has_flickering and flicker_mask is not None:
-                    # Apply stronger blur to flickering areas
-                    blurred_frame = gaussian_filter(corrected_frame, sigma=2.0)
-                    
-                    # Blend based on flicker intensity
-                    flicker_blend = np.stack([flicker_mask] * 3, axis=2) * 0.8
-                    corrected_frame = corrected_frame * (1 - flicker_blend) + blurred_frame * flicker_blend
-                
                 # Apply slight gaussian blur to harsh transitions
                 corrected_frame = gaussian_filter(corrected_frame, sigma=self.gaussian_sigma)
                 
@@ -404,9 +381,9 @@ class AdvancedVideoFlashCorrector:
             
             corrected_frames.append(np.clip(corrected_frame, 0, 255).astype(np.uint8))
         
-        # Apply enhanced temporal smoothing with flicker detection
+        # Apply temporal smoothing
         if len(corrected_frames) > 2:
-            corrected_frames = self._apply_temporal_smoothing(corrected_frames, flicker_mask if has_flickering else None)
+            corrected_frames = self._apply_temporal_smoothing(corrected_frames)
         
         return corrected_frames
     
@@ -461,8 +438,8 @@ class AdvancedVideoFlashCorrector:
                 logger.info(f"Processing segment {segment_idx + 1}/{len(correction_segments)}: "
                            f"frames {start_frame}-{end_frame} ({segment_size} frames)")
                 
-                # Process in chunks for memory efficiency (smaller chunks for better flicker detection)
-                chunk_size = min(90, segment_size)  # Smaller chunks for better temporal analysis
+                # Process in chunks for memory efficiency
+                chunk_size = min(150, segment_size)  # Process in chunks of 150 frames max
                 
                 for chunk_start in range(start_frame, end_frame, chunk_size):
                     chunk_end = min(chunk_start + chunk_size, end_frame)
@@ -553,7 +530,7 @@ def main():
     """Main function to run the advanced video flash correction."""
     
     # Configuration parameters
-    working_folder = "video1"  # Name of the subfolder containing video and JSON files
+    working_folder = "9"  # Name of the subfolder containing video and JSON files
     json_filename = "results.json"  # Name of the JSON file within the working folder
     output_suffix = "_corrected"  # Suffix for the output video file
     
