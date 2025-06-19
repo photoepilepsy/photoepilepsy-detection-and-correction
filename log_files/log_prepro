@@ -1,0 +1,2046 @@
+Found 93 video files to process
+
+[1/93] Processing: raw_videos_720p/Lecture_720P-1f22_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 5 segments
+Segment 1: frames 0-86 (2.87 seconds)
+Segment 2: frames 86-145 (1.97 seconds)
+Segment 3: frames 145-293 (4.93 seconds)
+Segment 4: frames 293-461 (5.60 seconds)
+Segment 5: frames 461-599 (4.60 seconds)
+Segment 1: frames 0-86 (2.87 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 86-145 (1.97 seconds)
+Applying effect: add_similar_pixels_flash to segment 2
+Segment 3: frames 145-293 (4.93 seconds)
+Applying effect: add_fullscreen_red_flash to segment 3
+Segment 4: frames 293-461 (5.60 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 461-599 (4.60 seconds)
+No effect applied to segment 5 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-1f22_crf_10_ss_00_t_20.0.mp4
+Processing completed in 23.22 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-1f22_crf_10_ss_00_t_20.0.mp4
+
+[2/93] Processing: raw_videos_720p/VR_720P-0641_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-50 (1.67 seconds)
+Segment 2: frames 50-164 (3.80 seconds)
+Segment 3: frames 164-252 (2.93 seconds)
+Segment 4: frames 252-318 (2.20 seconds)
+Segment 5: frames 318-359 (1.37 seconds)
+Segment 6: frames 359-445 (2.87 seconds)
+Segment 7: frames 445-546 (3.37 seconds)
+Segment 1: frames 0-50 (1.67 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 50-164 (3.80 seconds)
+Applying effect: add_extended_white_flash to segment 2
+Segment 3: frames 164-252 (2.93 seconds)
+Applying effect: add_rgb_flash_effect to segment 3
+Segment 4: frames 252-318 (2.20 seconds)
+Applying effect: add_party_flash_effect to segment 4
+Segment 5: frames 318-359 (1.37 seconds)
+Applying effect: add_pixel_intensity_flash to segment 5
+Segment 6: frames 359-445 (2.87 seconds)
+Applying effect: add_red_flash_effect to segment 6
+Segment 7: frames 445-546 (3.37 seconds)
+No effect applied to segment 7 (random chance)
+Corrupted video saved to: corrupted_videos_720P/VR_720P-0641_crf_10_ss_00_t_20.0.mp4
+Processing completed in 25.47 seconds
+Corrupted video saved to: corrupted_videos_720P/VR_720P-0641_crf_10_ss_00_t_20.0.mp4
+
+[3/93] Processing: raw_videos_720p/VerticalVideo_720P-19fa_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 8 segments
+Segment 1: frames 0-53 (1.77 seconds)
+Segment 2: frames 53-117 (2.13 seconds)
+Segment 3: frames 117-179 (2.07 seconds)
+Segment 4: frames 179-266 (2.90 seconds)
+Segment 5: frames 266-321 (1.83 seconds)
+Segment 6: frames 321-390 (2.30 seconds)
+Segment 7: frames 390-490 (3.33 seconds)
+Segment 8: frames 490-600 (3.67 seconds)
+Segment 1: frames 0-53 (1.77 seconds)
+Applying effect: add_red_flash_effect to segment 1
+Segment 2: frames 53-117 (2.13 seconds)
+Applying effect: add_fullscreen_red_flash to segment 2
+Segment 3: frames 117-179 (2.07 seconds)
+Applying effect: add_similar_pixels_flash to segment 3
+Segment 4: frames 179-266 (2.90 seconds)
+Applying effect: add_extended_white_flash to segment 4
+Segment 5: frames 266-321 (1.83 seconds)
+Applying effect: add_extended_white_flash to segment 5
+Segment 6: frames 321-390 (2.30 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 390-490 (3.33 seconds)
+No effect applied to segment 7 (random chance)
+Segment 8: frames 490-600 (3.67 seconds)
+Applying effect: add_party_flash_effect to segment 8
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-19fa_crf_10_ss_00_t_20.0.mp4
+Processing completed in 24.81 seconds
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-19fa_crf_10_ss_00_t_20.0.mp4
+
+[4/93] Processing: raw_videos_720p/Animation_720P-0116_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-58 (1.93 seconds)
+Segment 2: frames 58-117 (1.97 seconds)
+Segment 3: frames 117-182 (2.17 seconds)
+Segment 4: frames 182-258 (2.53 seconds)
+Segment 5: frames 258-382 (4.13 seconds)
+Segment 6: frames 382-432 (1.67 seconds)
+Segment 7: frames 432-600 (5.60 seconds)
+Segment 1: frames 0-58 (1.93 seconds)
+Applying effect: add_extended_white_flash to segment 1
+Segment 2: frames 58-117 (1.97 seconds)
+Applying effect: add_party_flash_effect to segment 2
+Segment 3: frames 117-182 (2.17 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 3
+Segment 4: frames 182-258 (2.53 seconds)
+Applying effect: add_rgb_flash_effect to segment 4
+Segment 5: frames 258-382 (4.13 seconds)
+Applying effect: add_rgb_flash_effect to segment 5
+Segment 6: frames 382-432 (1.67 seconds)
+Applying effect: add_red_flash_effect to segment 6
+Segment 7: frames 432-600 (5.60 seconds)
+Applying effect: add_police_flash_effect to segment 7
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-0116_crf_10_ss_00_t_20.0.mp4
+Processing completed in 58.66 seconds
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-0116_crf_10_ss_00_t_20.0.mp4
+
+[5/93] Processing: raw_videos_720p/Sports_720P-3338_crf_10_ss_00_t_20.0.mp4
+Further adjusted number of segments to 6 due to constraints
+Partitioning video into 6 segments
+Segment 1: frames 0-119 (3.97 seconds)
+Segment 2: frames 119-240 (4.03 seconds)
+Segment 3: frames 240-338 (3.27 seconds)
+Segment 4: frames 338-391 (1.77 seconds)
+Segment 5: frames 391-508 (3.90 seconds)
+Segment 6: frames 508-600 (3.07 seconds)
+Segment 1: frames 0-119 (3.97 seconds)
+Applying effect: add_pixel_intensity_flash to segment 1
+Segment 2: frames 119-240 (4.03 seconds)
+Applying effect: add_red_flash_effect to segment 2
+Segment 3: frames 240-338 (3.27 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 338-391 (1.77 seconds)
+Applying effect: add_fullscreen_red_flash to segment 4
+Segment 5: frames 391-508 (3.90 seconds)
+Applying effect: add_fullscreen_red_flash to segment 5
+Segment 6: frames 508-600 (3.07 seconds)
+No effect applied to segment 6 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-3338_crf_10_ss_00_t_20.0.mp4
+Processing completed in 7.24 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-3338_crf_10_ss_00_t_20.0.mp4
+
+[6/93] Processing: raw_videos_720p/VerticalVideo_720P-2efc_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-2efc_crf_10_ss_00_t_20.0.mp4
+Processing completed in 4.24 seconds
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-2efc_crf_10_ss_00_t_20.0.mp4
+
+[7/93] Processing: raw_videos_720p/VerticalVideo_720P-6580_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 3 segments
+Segment 1: frames 0-164 (5.47 seconds)
+Segment 2: frames 164-261 (3.23 seconds)
+Segment 3: frames 261-599 (11.27 seconds)
+Segment 1: frames 0-164 (5.47 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 164-261 (3.23 seconds)
+Applying effect: add_police_flash_effect to segment 2
+Segment 3: frames 261-599 (11.27 seconds)
+Applying effect: add_red_flash_effect to segment 3
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-6580_crf_10_ss_00_t_20.0.mp4
+Processing completed in 12.99 seconds
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-6580_crf_10_ss_00_t_20.0.mp4
+
+[8/93] Processing: raw_videos_720p/Sports_720P-6bb7_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-43 (1.43 seconds)
+Segment 2: frames 43-100 (1.90 seconds)
+Segment 3: frames 100-174 (2.47 seconds)
+Segment 4: frames 174-270 (3.20 seconds)
+Segment 5: frames 270-361 (3.03 seconds)
+Segment 6: frames 361-406 (1.50 seconds)
+Segment 7: frames 406-599 (6.43 seconds)
+Segment 1: frames 0-43 (1.43 seconds)
+Applying effect: add_extended_white_flash to segment 1
+Segment 2: frames 43-100 (1.90 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 100-174 (2.47 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 3
+Segment 4: frames 174-270 (3.20 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 270-361 (3.03 seconds)
+Applying effect: add_fullscreen_red_flash to segment 5
+Segment 6: frames 361-406 (1.50 seconds)
+Applying effect: add_similar_pixels_flash to segment 6
+Segment 7: frames 406-599 (6.43 seconds)
+Applying effect: add_similar_pixels_flash to segment 7
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-6bb7_crf_10_ss_00_t_20.0.mp4
+Processing completed in 80.56 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-6bb7_crf_10_ss_00_t_20.0.mp4
+
+[9/93] Processing: raw_videos_720p/Lecture_720P-003a_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-599 (19.97 seconds)
+Segment 1: frames 0-599 (19.97 seconds)
+Applying effect: add_red_flash_effect to segment 1
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-003a_crf_10_ss_00_t_20.0.mp4
+Processing completed in 7.63 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-003a_crf_10_ss_00_t_20.0.mp4
+
+[10/93] Processing: raw_videos_720p/LyricVideo_720P-2d24_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+Applying effect: add_extended_white_flash to segment 1
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-2d24_crf_10_ss_00_t_20.0.mp4
+Processing completed in 19.14 seconds
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-2d24_crf_10_ss_00_t_20.0.mp4
+
+[11/93] Processing: raw_videos_720p/CoverSong_720P-7360_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 6 segments
+Segment 1: frames 0-134 (4.47 seconds)
+Segment 2: frames 134-181 (1.57 seconds)
+Segment 3: frames 181-272 (3.03 seconds)
+Segment 4: frames 272-351 (2.63 seconds)
+Segment 5: frames 351-489 (4.60 seconds)
+Segment 6: frames 489-600 (3.70 seconds)
+Segment 1: frames 0-134 (4.47 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Segment 2: frames 134-181 (1.57 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 181-272 (3.03 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 272-351 (2.63 seconds)
+Applying effect: add_police_flash_effect to segment 4
+Segment 5: frames 351-489 (4.60 seconds)
+Applying effect: add_extended_white_flash to segment 5
+Segment 6: frames 489-600 (3.70 seconds)
+No effect applied to segment 6 (random chance)
+Corrupted video saved to: corrupted_videos_720P/CoverSong_720P-7360_crf_10_ss_00_t_20.0.mp4
+Processing completed in 29.75 seconds
+Corrupted video saved to: corrupted_videos_720P/CoverSong_720P-7360_crf_10_ss_00_t_20.0.mp4
+
+[12/93] Processing: raw_videos_720p/HowTo_720P-06eb_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 3 segments
+Segment 1: frames 0-230 (7.67 seconds)
+Segment 2: frames 230-492 (8.73 seconds)
+Segment 3: frames 492-600 (3.60 seconds)
+Segment 1: frames 0-230 (7.67 seconds)
+Applying effect: add_similar_pixels_flash to segment 1
+Segment 2: frames 230-492 (8.73 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 492-600 (3.60 seconds)
+No effect applied to segment 3 (random chance)
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-06eb_crf_10_ss_00_t_20.0.mp4
+Processing completed in 65.36 seconds
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-06eb_crf_10_ss_00_t_20.0.mp4
+
+[13/93] Processing: raw_videos_720p/NewsClip_720P-6106_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 10 segments
+Segment 1: frames 0-68 (2.27 seconds)
+Segment 2: frames 68-114 (1.53 seconds)
+Segment 3: frames 114-175 (2.03 seconds)
+Segment 4: frames 175-230 (1.83 seconds)
+Segment 5: frames 230-309 (2.63 seconds)
+Segment 6: frames 309-369 (2.00 seconds)
+Segment 7: frames 369-447 (2.60 seconds)
+Segment 8: frames 447-495 (1.60 seconds)
+Segment 9: frames 495-559 (2.13 seconds)
+Segment 10: frames 559-599 (1.33 seconds)
+Segment 1: frames 0-68 (2.27 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 68-114 (1.53 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 114-175 (2.03 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 175-230 (1.83 seconds)
+Applying effect: add_similar_pixels_flash to segment 4
+Segment 5: frames 230-309 (2.63 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 309-369 (2.00 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 369-447 (2.60 seconds)
+No effect applied to segment 7 (random chance)
+Segment 8: frames 447-495 (1.60 seconds)
+No effect applied to segment 8 (random chance)
+Segment 9: frames 495-559 (2.13 seconds)
+Applying effect: add_rgb_flash_effect to segment 9
+Segment 10: frames 559-599 (1.33 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 10
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-6106_crf_10_ss_00_t_20.0.mp4
+Processing completed in 30.62 seconds
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-6106_crf_10_ss_00_t_20.0.mp4
+
+[14/93] Processing: raw_videos_720p/NewsClip_720P-739b_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-739b_crf_10_ss_00_t_20.0.mp4
+Processing completed in 104.26 seconds
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-739b_crf_10_ss_00_t_20.0.mp4
+
+[15/93] Processing: raw_videos_720p/NewsClip_720P-35d9_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-97 (3.23 seconds)
+Segment 2: frames 97-207 (3.67 seconds)
+Segment 3: frames 207-437 (7.67 seconds)
+Segment 4: frames 437-599 (5.40 seconds)
+Segment 1: frames 0-97 (3.23 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 97-207 (3.67 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 207-437 (7.67 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 437-599 (5.40 seconds)
+No effect applied to segment 4 (random chance)
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-35d9_crf_10_ss_00_t_20.0.mp4
+Processing completed in 1.95 seconds
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-35d9_crf_10_ss_00_t_20.0.mp4
+
+[16/93] Processing: raw_videos_720p/Lecture_720P-2f38_crf_10_ss_00_t_20.0.mp4
+Further adjusted number of segments to 6 due to constraints
+Partitioning video into 6 segments
+Segment 1: frames 0-71 (2.37 seconds)
+Segment 2: frames 71-196 (4.17 seconds)
+Segment 3: frames 196-317 (4.03 seconds)
+Segment 4: frames 317-442 (4.17 seconds)
+Segment 5: frames 442-509 (2.23 seconds)
+Segment 6: frames 509-600 (3.03 seconds)
+Segment 1: frames 0-71 (2.37 seconds)
+Applying effect: add_extended_white_flash to segment 1
+Segment 2: frames 71-196 (4.17 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 196-317 (4.03 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 3
+Segment 4: frames 317-442 (4.17 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Segment 5: frames 442-509 (2.23 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 509-600 (3.03 seconds)
+No effect applied to segment 6 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-2f38_crf_10_ss_00_t_20.0.mp4
+Processing completed in 22.45 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-2f38_crf_10_ss_00_t_20.0.mp4
+
+[17/93] Processing: raw_videos_720p/LiveMusic_720P-71c5_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 8 segments
+Segment 1: frames 0-71 (2.37 seconds)
+Segment 2: frames 71-167 (3.20 seconds)
+Segment 3: frames 167-215 (1.60 seconds)
+Segment 4: frames 215-279 (2.13 seconds)
+Segment 5: frames 279-357 (2.60 seconds)
+Segment 6: frames 357-411 (1.80 seconds)
+Segment 7: frames 411-471 (2.00 seconds)
+Segment 8: frames 471-599 (4.27 seconds)
+Segment 1: frames 0-71 (2.37 seconds)
+Applying effect: add_rgb_flash_effect to segment 1
+Segment 2: frames 71-167 (3.20 seconds)
+Applying effect: add_party_flash_effect to segment 2
+Segment 3: frames 167-215 (1.60 seconds)
+Applying effect: add_police_flash_effect to segment 3
+Segment 4: frames 215-279 (2.13 seconds)
+Applying effect: add_party_flash_effect to segment 4
+Segment 5: frames 279-357 (2.60 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 5
+Segment 6: frames 357-411 (1.80 seconds)
+Applying effect: add_fullscreen_red_flash to segment 6
+Segment 7: frames 411-471 (2.00 seconds)
+Applying effect: add_party_flash_effect to segment 7
+Segment 8: frames 471-599 (4.27 seconds)
+No effect applied to segment 8 (random chance)
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-71c5_crf_10_ss_00_t_20.0.mp4
+Processing completed in 18.76 seconds
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-71c5_crf_10_ss_00_t_20.0.mp4
+
+[18/93] Processing: raw_videos_720p/NewsClip_720P-6a19_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 8 segments
+Segment 1: frames 0-88 (2.93 seconds)
+Segment 2: frames 88-164 (2.53 seconds)
+Segment 3: frames 164-234 (2.33 seconds)
+Segment 4: frames 234-298 (2.13 seconds)
+Segment 5: frames 298-362 (2.13 seconds)
+Segment 6: frames 362-437 (2.50 seconds)
+Segment 7: frames 437-536 (3.30 seconds)
+Segment 8: frames 536-600 (2.13 seconds)
+Segment 1: frames 0-88 (2.93 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 88-164 (2.53 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 164-234 (2.33 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 234-298 (2.13 seconds)
+Applying effect: add_police_flash_effect to segment 4
+Segment 5: frames 298-362 (2.13 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 362-437 (2.50 seconds)
+Applying effect: add_party_flash_effect to segment 6
+Segment 7: frames 437-536 (3.30 seconds)
+Applying effect: add_party_flash_effect to segment 7
+Segment 8: frames 536-600 (2.13 seconds)
+Applying effect: add_pixel_intensity_flash to segment 8
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-6a19_crf_10_ss_00_t_20.0.mp4
+Processing completed in 9.97 seconds
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-6a19_crf_10_ss_00_t_20.0.mp4
+
+[19/93] Processing: raw_videos_720p/NewsClip_720P-6cde_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 8 segments
+Segment 1: frames 0-60 (2.00 seconds)
+Segment 2: frames 60-120 (2.00 seconds)
+Segment 3: frames 120-199 (2.63 seconds)
+Segment 4: frames 199-276 (2.57 seconds)
+Segment 5: frames 276-386 (3.67 seconds)
+Segment 6: frames 386-469 (2.77 seconds)
+Segment 7: frames 469-524 (1.83 seconds)
+Segment 8: frames 524-599 (2.50 seconds)
+Segment 1: frames 0-60 (2.00 seconds)
+Applying effect: add_similar_pixels_flash to segment 1
+Segment 2: frames 60-120 (2.00 seconds)
+Applying effect: add_party_flash_effect to segment 2
+Segment 3: frames 120-199 (2.63 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 199-276 (2.57 seconds)
+Applying effect: add_pixel_intensity_flash to segment 4
+Segment 5: frames 276-386 (3.67 seconds)
+Applying effect: add_red_flash_effect to segment 5
+Segment 6: frames 386-469 (2.77 seconds)
+Applying effect: add_fullscreen_red_flash to segment 6
+Segment 7: frames 469-524 (1.83 seconds)
+Applying effect: add_fullscreen_red_flash to segment 7
+Segment 8: frames 524-599 (2.50 seconds)
+No effect applied to segment 8 (random chance)
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-6cde_crf_10_ss_00_t_20.0.mp4
+Processing completed in 29.34 seconds
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-6cde_crf_10_ss_00_t_20.0.mp4
+
+[20/93] Processing: raw_videos_720p/LiveMusic_720P-2620_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+Applying effect: add_pixel_intensity_flash to segment 1
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-2620_crf_10_ss_00_t_20.0.mp4
+Processing completed in 11.62 seconds
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-2620_crf_10_ss_00_t_20.0.mp4
+
+[21/93] Processing: raw_videos_720p/LyricVideo_720P-36fb_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-193 (6.43 seconds)
+Segment 2: frames 193-373 (6.00 seconds)
+Segment 3: frames 373-487 (3.80 seconds)
+Segment 4: frames 487-600 (3.77 seconds)
+Segment 1: frames 0-193 (6.43 seconds)
+Applying effect: add_fullscreen_red_flash to segment 1
+Segment 2: frames 193-373 (6.00 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 373-487 (3.80 seconds)
+Applying effect: add_fullscreen_red_flash to segment 3
+Segment 4: frames 487-600 (3.77 seconds)
+No effect applied to segment 4 (random chance)
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-36fb_crf_10_ss_00_t_20.0.mp4
+Processing completed in 6.28 seconds
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-36fb_crf_10_ss_00_t_20.0.mp4
+
+[22/93] Processing: raw_videos_720p/MusicVideo_720P-0752_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+Applying effect: add_red_flash_effect to segment 1
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-0752_crf_10_ss_00_t_20.0.mp4
+Processing completed in 3.97 seconds
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-0752_crf_10_ss_00_t_20.0.mp4
+
+[23/93] Processing: raw_videos_720p/Sports_720P-50cf_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 2 segments
+Segment 1: frames 0-261 (8.70 seconds)
+Segment 2: frames 261-600 (11.30 seconds)
+Segment 1: frames 0-261 (8.70 seconds)
+Applying effect: add_police_flash_effect to segment 1
+Segment 2: frames 261-600 (11.30 seconds)
+Applying effect: add_similar_pixels_flash to segment 2
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-50cf_crf_10_ss_00_t_20.0.mp4
+Processing completed in 123.49 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-50cf_crf_10_ss_00_t_20.0.mp4
+
+[24/93] Processing: raw_videos_720p/Vlog_720P-033a_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-56 (1.87 seconds)
+Segment 2: frames 56-259 (6.77 seconds)
+Segment 3: frames 259-382 (4.10 seconds)
+Segment 4: frames 382-600 (7.27 seconds)
+Segment 1: frames 0-56 (1.87 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 56-259 (6.77 seconds)
+Applying effect: add_red_flash_effect to segment 2
+Segment 3: frames 259-382 (4.10 seconds)
+Applying effect: add_party_flash_effect to segment 3
+Segment 4: frames 382-600 (7.27 seconds)
+No effect applied to segment 4 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-033a_crf_10_ss_00_t_20.0.mp4
+Processing completed in 5.02 seconds
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-033a_crf_10_ss_00_t_20.0.mp4
+
+[25/93] Processing: raw_videos_720p/Gaming_720P-2dbe_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+No effect applied to segment 1 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-2dbe_crf_10_ss_00_t_20.0.mp4
+Processing completed in 2.44 seconds
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-2dbe_crf_10_ss_00_t_20.0.mp4
+
+[26/93] Processing: raw_videos_720p/Gaming_720P-221d_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 5 segments
+Segment 1: frames 0-66 (2.20 seconds)
+Segment 2: frames 66-200 (4.47 seconds)
+Segment 3: frames 200-290 (3.00 seconds)
+Segment 4: frames 290-335 (1.50 seconds)
+Segment 5: frames 335-452 (3.90 seconds)
+Segment 1: frames 0-66 (2.20 seconds)
+Applying effect: add_pixel_intensity_flash to segment 1
+Segment 2: frames 66-200 (4.47 seconds)
+Applying effect: add_police_flash_effect to segment 2
+Segment 3: frames 200-290 (3.00 seconds)
+Applying effect: add_fullscreen_red_flash to segment 3
+Segment 4: frames 290-335 (1.50 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Segment 5: frames 335-452 (3.90 seconds)
+No effect applied to segment 5 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-221d_crf_10_ss_00_t_20.0.mp4
+Processing completed in 21.02 seconds
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-221d_crf_10_ss_00_t_20.0.mp4
+
+[27/93] Processing: raw_videos_720p/Lecture_720P-53a1_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-166 (5.53 seconds)
+Segment 2: frames 166-256 (3.00 seconds)
+Segment 3: frames 256-329 (2.43 seconds)
+Segment 4: frames 329-600 (9.03 seconds)
+Segment 1: frames 0-166 (5.53 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 166-256 (3.00 seconds)
+Applying effect: add_party_flash_effect to segment 2
+Segment 3: frames 256-329 (2.43 seconds)
+Applying effect: add_extended_white_flash to segment 3
+Segment 4: frames 329-600 (9.03 seconds)
+No effect applied to segment 4 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-53a1_crf_10_ss_00_t_20.0.mp4
+Processing completed in 4.55 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-53a1_crf_10_ss_00_t_20.0.mp4
+
+[28/93] Processing: raw_videos_720p/Lecture_720P-5120_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-108 (3.60 seconds)
+Segment 2: frames 108-238 (4.33 seconds)
+Segment 3: frames 238-322 (2.80 seconds)
+Segment 4: frames 322-390 (2.27 seconds)
+Segment 5: frames 390-464 (2.47 seconds)
+Segment 6: frames 464-536 (2.40 seconds)
+Segment 7: frames 536-600 (2.13 seconds)
+Segment 1: frames 0-108 (3.60 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 108-238 (4.33 seconds)
+Applying effect: add_rgb_flash_effect to segment 2
+Segment 3: frames 238-322 (2.80 seconds)
+Applying effect: add_pixel_intensity_flash to segment 3
+Segment 4: frames 322-390 (2.27 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Segment 5: frames 390-464 (2.47 seconds)
+Applying effect: add_party_flash_effect to segment 5
+Segment 6: frames 464-536 (2.40 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 536-600 (2.13 seconds)
+Applying effect: add_red_flash_effect to segment 7
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-5120_crf_10_ss_00_t_20.0.mp4
+Processing completed in 24.76 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-5120_crf_10_ss_00_t_20.0.mp4
+
+[29/93] Processing: raw_videos_720p/Sports_720P-62ba_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 3 segments
+Segment 1: frames 0-287 (9.57 seconds)
+Segment 2: frames 287-405 (3.93 seconds)
+Segment 3: frames 405-600 (6.50 seconds)
+Segment 1: frames 0-287 (9.57 seconds)
+Applying effect: add_police_flash_effect to segment 1
+Segment 2: frames 287-405 (3.93 seconds)
+Applying effect: add_pixel_intensity_flash to segment 2
+Segment 3: frames 405-600 (6.50 seconds)
+Applying effect: add_party_flash_effect to segment 3
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-62ba_crf_10_ss_00_t_20.0.mp4
+Processing completed in 24.49 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-62ba_crf_10_ss_00_t_20.0.mp4
+
+[30/93] Processing: raw_videos_720p/Vlog_720P-0d79_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+Applying effect: add_extended_white_flash to segment 1
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-0d79_crf_10_ss_00_t_20.0.mp4
+Processing completed in 18.62 seconds
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-0d79_crf_10_ss_00_t_20.0.mp4
+
+[31/93] Processing: raw_videos_720p/CoverSong_720P-5ba2_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 10 segments
+Segment 1: frames 0-43 (1.43 seconds)
+Segment 2: frames 43-96 (1.77 seconds)
+Segment 3: frames 96-157 (2.03 seconds)
+Segment 4: frames 157-236 (2.63 seconds)
+Segment 5: frames 236-310 (2.47 seconds)
+Segment 6: frames 310-347 (1.23 seconds)
+Segment 7: frames 347-411 (2.13 seconds)
+Segment 8: frames 411-487 (2.53 seconds)
+Segment 9: frames 487-570 (2.77 seconds)
+Segment 10: frames 570-600 (1.00 seconds)
+Segment 1: frames 0-43 (1.43 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 43-96 (1.77 seconds)
+Applying effect: add_red_flash_effect to segment 2
+Segment 3: frames 96-157 (2.03 seconds)
+Applying effect: add_red_flash_effect to segment 3
+Segment 4: frames 157-236 (2.63 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Segment 5: frames 236-310 (2.47 seconds)
+Applying effect: add_red_flash_effect to segment 5
+Segment 6: frames 310-347 (1.23 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 347-411 (2.13 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 7
+Segment 8: frames 411-487 (2.53 seconds)
+No effect applied to segment 8 (random chance)
+Segment 9: frames 487-570 (2.77 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 9
+Segment 10: frames 570-600 (1.00 seconds)
+Applying effect: add_rgb_flash_effect to segment 10
+Corrupted video saved to: corrupted_videos_720P/CoverSong_720P-5ba2_crf_10_ss_00_t_20.0.mp4
+Processing completed in 24.11 seconds
+Corrupted video saved to: corrupted_videos_720P/CoverSong_720P-5ba2_crf_10_ss_00_t_20.0.mp4
+
+[32/93] Processing: raw_videos_720p/NewsClip_720P-2182_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+No effect applied to segment 1 (random chance)
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-2182_crf_10_ss_00_t_20.0.mp4
+Processing completed in 3.90 seconds
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-2182_crf_10_ss_00_t_20.0.mp4
+
+[33/93] Processing: raw_videos_720p/HowTo_720P-479b_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 2 segments
+Segment 1: frames 0-120 (4.00 seconds)
+Segment 2: frames 120-600 (16.00 seconds)
+Segment 1: frames 0-120 (4.00 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 120-600 (16.00 seconds)
+Applying effect: add_party_flash_effect to segment 2
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-479b_crf_10_ss_00_t_20.0.mp4
+Processing completed in 3.98 seconds
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-479b_crf_10_ss_00_t_20.0.mp4
+
+[34/93] Processing: raw_videos_720p/VR_720P-448a_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-94 (3.13 seconds)
+Segment 2: frames 94-173 (2.63 seconds)
+Segment 3: frames 173-257 (2.80 seconds)
+Segment 4: frames 257-357 (3.33 seconds)
+Segment 5: frames 357-410 (1.77 seconds)
+Segment 6: frames 410-473 (2.10 seconds)
+Segment 7: frames 473-529 (1.87 seconds)
+Segment 1: frames 0-94 (3.13 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 94-173 (2.63 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 173-257 (2.80 seconds)
+Applying effect: add_similar_pixels_flash to segment 3
+Segment 4: frames 257-357 (3.33 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 357-410 (1.77 seconds)
+Applying effect: add_extended_white_flash to segment 5
+Segment 6: frames 410-473 (2.10 seconds)
+Applying effect: add_police_flash_effect to segment 6
+Segment 7: frames 473-529 (1.87 seconds)
+Applying effect: add_police_flash_effect to segment 7
+Corrupted video saved to: corrupted_videos_720P/VR_720P-448a_crf_10_ss_00_t_20.0.mp4
+Processing completed in 29.94 seconds
+Corrupted video saved to: corrupted_videos_720P/VR_720P-448a_crf_10_ss_00_t_20.0.mp4
+
+[35/93] Processing: raw_videos_720p/NewsClip_720P-579b_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 2 segments
+Segment 1: frames 0-126 (4.20 seconds)
+Segment 2: frames 126-600 (15.80 seconds)
+Segment 1: frames 0-126 (4.20 seconds)
+Applying effect: add_red_flash_effect to segment 1
+Segment 2: frames 126-600 (15.80 seconds)
+No effect applied to segment 2 (random chance)
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-579b_crf_10_ss_00_t_20.0.mp4
+Processing completed in 3.46 seconds
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-579b_crf_10_ss_00_t_20.0.mp4
+
+[36/93] Processing: raw_videos_720p/LiveMusic_720P-6452_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 10 segments
+Segment 1: frames 0-69 (2.30 seconds)
+Segment 2: frames 69-143 (2.47 seconds)
+Segment 3: frames 143-225 (2.73 seconds)
+Segment 4: frames 225-271 (1.53 seconds)
+Segment 5: frames 271-314 (1.43 seconds)
+Segment 6: frames 314-355 (1.37 seconds)
+Segment 7: frames 355-411 (1.87 seconds)
+Segment 8: frames 411-490 (2.63 seconds)
+Segment 9: frames 490-530 (1.33 seconds)
+Segment 10: frames 530-600 (2.33 seconds)
+Segment 1: frames 0-69 (2.30 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 69-143 (2.47 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 143-225 (2.73 seconds)
+Applying effect: add_party_flash_effect to segment 3
+Segment 4: frames 225-271 (1.53 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 271-314 (1.43 seconds)
+Applying effect: add_rgb_flash_effect to segment 5
+Segment 6: frames 314-355 (1.37 seconds)
+Applying effect: add_party_flash_effect to segment 6
+Segment 7: frames 355-411 (1.87 seconds)
+Applying effect: add_fullscreen_red_flash to segment 7
+Segment 8: frames 411-490 (2.63 seconds)
+Applying effect: add_red_flash_effect to segment 8
+Segment 9: frames 490-530 (1.33 seconds)
+Applying effect: add_fullscreen_red_flash to segment 9
+Segment 10: frames 530-600 (2.33 seconds)
+No effect applied to segment 10 (random chance)
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-6452_crf_10_ss_00_t_20.0.mp4
+Processing completed in 8.55 seconds
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-6452_crf_10_ss_00_t_20.0.mp4
+
+[37/93] Processing: raw_videos_720p/Gaming_720P-25aa_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 6 segments
+Segment 1: frames 0-98 (3.27 seconds)
+Segment 2: frames 98-159 (2.03 seconds)
+Segment 3: frames 159-242 (2.77 seconds)
+Segment 4: frames 242-303 (2.03 seconds)
+Segment 5: frames 303-396 (3.10 seconds)
+Segment 6: frames 396-600 (6.80 seconds)
+Segment 1: frames 0-98 (3.27 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 98-159 (2.03 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 159-242 (2.77 seconds)
+Applying effect: add_similar_pixels_flash to segment 3
+Segment 4: frames 242-303 (2.03 seconds)
+Applying effect: add_pixel_intensity_flash to segment 4
+Segment 5: frames 303-396 (3.10 seconds)
+Applying effect: add_rgb_flash_effect to segment 5
+Segment 6: frames 396-600 (6.80 seconds)
+No effect applied to segment 6 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-25aa_crf_10_ss_00_t_20.0.mp4
+Processing completed in 42.37 seconds
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-25aa_crf_10_ss_00_t_20.0.mp4
+
+[38/93] Processing: raw_videos_720p/LiveMusic_720P-3320_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 8 segments
+Segment 1: frames 0-53 (1.77 seconds)
+Segment 2: frames 53-142 (2.97 seconds)
+Segment 3: frames 142-250 (3.60 seconds)
+Segment 4: frames 250-297 (1.57 seconds)
+Segment 5: frames 297-340 (1.43 seconds)
+Segment 6: frames 340-433 (3.10 seconds)
+Segment 7: frames 433-494 (2.03 seconds)
+Segment 8: frames 494-600 (3.53 seconds)
+Segment 1: frames 0-53 (1.77 seconds)
+Applying effect: add_rgb_flash_effect to segment 1
+Segment 2: frames 53-142 (2.97 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 142-250 (3.60 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 250-297 (1.57 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 297-340 (1.43 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 340-433 (3.10 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 6
+Segment 7: frames 433-494 (2.03 seconds)
+No effect applied to segment 7 (random chance)
+Segment 8: frames 494-600 (3.53 seconds)
+Applying effect: add_similar_pixels_flash to segment 8
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-3320_crf_10_ss_00_t_20.0.mp4
+Processing completed in 50.12 seconds
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-3320_crf_10_ss_00_t_20.0.mp4
+
+[39/93] Processing: raw_videos_720p/LyricVideo_720P-6fc9_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 10 segments
+Segment 1: frames 0-79 (2.63 seconds)
+Segment 2: frames 79-128 (1.63 seconds)
+Segment 3: frames 128-182 (1.80 seconds)
+Segment 4: frames 182-257 (2.50 seconds)
+Segment 5: frames 257-307 (1.67 seconds)
+Segment 6: frames 307-380 (2.43 seconds)
+Segment 7: frames 380-435 (1.83 seconds)
+Segment 8: frames 435-477 (1.40 seconds)
+Segment 9: frames 477-549 (2.40 seconds)
+Segment 10: frames 549-599 (1.67 seconds)
+Segment 1: frames 0-79 (2.63 seconds)
+Applying effect: add_police_flash_effect to segment 1
+Segment 2: frames 79-128 (1.63 seconds)
+Applying effect: add_party_flash_effect to segment 2
+Segment 3: frames 128-182 (1.80 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 182-257 (2.50 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Segment 5: frames 257-307 (1.67 seconds)
+Applying effect: add_fullscreen_red_flash to segment 5
+Segment 6: frames 307-380 (2.43 seconds)
+Applying effect: add_extended_white_flash to segment 6
+Segment 7: frames 380-435 (1.83 seconds)
+No effect applied to segment 7 (random chance)
+Segment 8: frames 435-477 (1.40 seconds)
+Applying effect: add_extended_white_flash to segment 8
+Segment 9: frames 477-549 (2.40 seconds)
+Applying effect: add_extended_white_flash to segment 9
+Segment 10: frames 549-599 (1.67 seconds)
+Applying effect: add_red_flash_effect to segment 10
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-6fc9_crf_10_ss_00_t_20.0.mp4
+Processing completed in 25.57 seconds
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-6fc9_crf_10_ss_00_t_20.0.mp4
+
+[40/93] Processing: raw_videos_720p/Animation_720P-06a6_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 9 segments
+Segment 1: frames 0-60 (2.00 seconds)
+Segment 2: frames 60-122 (2.07 seconds)
+Segment 3: frames 122-190 (2.27 seconds)
+Segment 4: frames 190-242 (1.73 seconds)
+Segment 5: frames 242-318 (2.53 seconds)
+Segment 6: frames 318-400 (2.73 seconds)
+Segment 7: frames 400-442 (1.40 seconds)
+Segment 8: frames 442-484 (1.40 seconds)
+Segment 9: frames 484-600 (3.87 seconds)
+Segment 1: frames 0-60 (2.00 seconds)
+Applying effect: add_red_flash_effect to segment 1
+Segment 2: frames 60-122 (2.07 seconds)
+Applying effect: add_pixel_intensity_flash to segment 2
+Segment 3: frames 122-190 (2.27 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 190-242 (1.73 seconds)
+Applying effect: add_party_flash_effect to segment 4
+Segment 5: frames 242-318 (2.53 seconds)
+Applying effect: add_similar_pixels_flash to segment 5
+Segment 6: frames 318-400 (2.73 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 400-442 (1.40 seconds)
+Applying effect: add_police_flash_effect to segment 7
+Segment 8: frames 442-484 (1.40 seconds)
+Applying effect: add_similar_pixels_flash to segment 8
+Segment 9: frames 484-600 (3.87 seconds)
+Applying effect: add_similar_pixels_flash to segment 9
+/home/kaan-eren/jupyter_env/lib/python3.12/site-packages/sklearn/base.py:1473: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (4). Possibly due to duplicate points in X.
+  return fit_method(estimator, *args, **kwargs)
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-06a6_crf_10_ss_00_t_20.0.mp4
+Processing completed in 75.54 seconds
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-06a6_crf_10_ss_00_t_20.0.mp4
+
+[41/93] Processing: raw_videos_720p/Lecture_720P-3b7f_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 9 segments
+Segment 1: frames 0-57 (1.90 seconds)
+Segment 2: frames 57-101 (1.47 seconds)
+Segment 3: frames 101-162 (2.03 seconds)
+Segment 4: frames 162-249 (2.90 seconds)
+Segment 5: frames 249-314 (2.17 seconds)
+Segment 6: frames 314-402 (2.93 seconds)
+Segment 7: frames 402-496 (3.13 seconds)
+Segment 8: frames 496-548 (1.73 seconds)
+Segment 9: frames 548-600 (1.73 seconds)
+Segment 1: frames 0-57 (1.90 seconds)
+Applying effect: add_extended_white_flash to segment 1
+Segment 2: frames 57-101 (1.47 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 101-162 (2.03 seconds)
+Applying effect: add_extended_white_flash to segment 3
+Segment 4: frames 162-249 (2.90 seconds)
+Applying effect: add_police_flash_effect to segment 4
+Segment 5: frames 249-314 (2.17 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 314-402 (2.93 seconds)
+Applying effect: add_pixel_intensity_flash to segment 6
+Segment 7: frames 402-496 (3.13 seconds)
+Applying effect: add_red_flash_effect to segment 7
+Segment 8: frames 496-548 (1.73 seconds)
+Applying effect: add_police_flash_effect to segment 8
+Segment 9: frames 548-600 (1.73 seconds)
+No effect applied to segment 9 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-3b7f_crf_10_ss_00_t_20.0.mp4
+Processing completed in 19.86 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-3b7f_crf_10_ss_00_t_20.0.mp4
+
+[42/93] Processing: raw_videos_720p/TelevisionClip_720P-44d1_crf_10_ss_00_t_20.0.mp4
+Further adjusted number of segments to 5 due to constraints
+Partitioning video into 5 segments
+Segment 1: frames 0-118 (3.93 seconds)
+Segment 2: frames 118-261 (4.77 seconds)
+Segment 3: frames 261-394 (4.43 seconds)
+Segment 4: frames 394-502 (3.60 seconds)
+Segment 5: frames 502-600 (3.27 seconds)
+Segment 1: frames 0-118 (3.93 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 118-261 (4.77 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 261-394 (4.43 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 394-502 (3.60 seconds)
+Applying effect: add_rgb_flash_effect to segment 4
+Segment 5: frames 502-600 (3.27 seconds)
+Applying effect: add_similar_pixels_flash to segment 5
+Corrupted video saved to: corrupted_videos_720P/TelevisionClip_720P-44d1_crf_10_ss_00_t_20.0.mp4
+Processing completed in 48.96 seconds
+Corrupted video saved to: corrupted_videos_720P/TelevisionClip_720P-44d1_crf_10_ss_00_t_20.0.mp4
+
+[43/93] Processing: raw_videos_720p/Animation_720P-6372_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 5 segments
+Segment 1: frames 0-117 (3.90 seconds)
+Segment 2: frames 117-205 (2.93 seconds)
+Segment 3: frames 205-375 (5.67 seconds)
+Segment 4: frames 375-499 (4.13 seconds)
+Segment 5: frames 499-600 (3.37 seconds)
+Segment 1: frames 0-117 (3.90 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 117-205 (2.93 seconds)
+Applying effect: add_pixel_intensity_flash to segment 2
+Segment 3: frames 205-375 (5.67 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 375-499 (4.13 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 499-600 (3.37 seconds)
+No effect applied to segment 5 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-6372_crf_10_ss_00_t_20.0.mp4
+Processing completed in 4.20 seconds
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-6372_crf_10_ss_00_t_20.0.mp4
+
+[44/93] Processing: raw_videos_720p/MusicVideo_720P-3c4c_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 10 segments
+Segment 1: frames 0-54 (1.80 seconds)
+Segment 2: frames 54-102 (1.60 seconds)
+Segment 3: frames 102-152 (1.67 seconds)
+Segment 4: frames 152-196 (1.47 seconds)
+Segment 5: frames 196-241 (1.50 seconds)
+Segment 6: frames 241-293 (1.73 seconds)
+Segment 7: frames 293-356 (2.10 seconds)
+Segment 8: frames 356-392 (1.20 seconds)
+Segment 9: frames 392-431 (1.30 seconds)
+Segment 10: frames 431-599 (5.60 seconds)
+Segment 1: frames 0-54 (1.80 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 54-102 (1.60 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 102-152 (1.67 seconds)
+Applying effect: add_fullscreen_red_flash to segment 3
+Segment 4: frames 152-196 (1.47 seconds)
+Applying effect: add_rgb_flash_effect to segment 4
+Segment 5: frames 196-241 (1.50 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 241-293 (1.73 seconds)
+Applying effect: add_rgb_flash_effect to segment 6
+Segment 7: frames 293-356 (2.10 seconds)
+No effect applied to segment 7 (random chance)
+Segment 8: frames 356-392 (1.20 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 8
+Segment 9: frames 392-431 (1.30 seconds)
+Applying effect: add_party_flash_effect to segment 9
+Segment 10: frames 431-599 (5.60 seconds)
+Applying effect: add_police_flash_effect to segment 10
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-3c4c_crf_10_ss_00_t_20.0.mp4
+Processing completed in 26.81 seconds
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-3c4c_crf_10_ss_00_t_20.0.mp4
+
+[45/93] Processing: raw_videos_720p/VerticalVideo_720P-4ca7_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 3 segments
+Segment 1: frames 0-147 (4.90 seconds)
+Segment 2: frames 147-408 (8.70 seconds)
+Segment 3: frames 408-600 (6.40 seconds)
+Segment 1: frames 0-147 (4.90 seconds)
+Applying effect: add_rgb_flash_effect to segment 1
+Segment 2: frames 147-408 (8.70 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 408-600 (6.40 seconds)
+Applying effect: add_similar_pixels_flash to segment 3
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-4ca7_crf_10_ss_00_t_20.0.mp4
+Processing completed in 75.80 seconds
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-4ca7_crf_10_ss_00_t_20.0.mp4
+
+[46/93] Processing: raw_videos_720p/Sports_720P-33c6_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 10 segments
+Segment 1: frames 0-63 (2.10 seconds)
+Segment 2: frames 63-106 (1.43 seconds)
+Segment 3: frames 106-149 (1.43 seconds)
+Segment 4: frames 149-218 (2.30 seconds)
+Segment 5: frames 218-284 (2.20 seconds)
+Segment 6: frames 284-345 (2.03 seconds)
+Segment 7: frames 345-397 (1.73 seconds)
+Segment 8: frames 397-444 (1.57 seconds)
+Segment 9: frames 444-522 (2.60 seconds)
+Segment 10: frames 522-599 (2.57 seconds)
+Segment 1: frames 0-63 (2.10 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 63-106 (1.43 seconds)
+Applying effect: add_red_flash_effect to segment 2
+Segment 3: frames 106-149 (1.43 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 149-218 (2.30 seconds)
+Applying effect: add_red_flash_effect to segment 4
+Segment 5: frames 218-284 (2.20 seconds)
+Applying effect: add_fullscreen_red_flash to segment 5
+Segment 6: frames 284-345 (2.03 seconds)
+Applying effect: add_fullscreen_red_flash to segment 6
+Segment 7: frames 345-397 (1.73 seconds)
+No effect applied to segment 7 (random chance)
+Segment 8: frames 397-444 (1.57 seconds)
+Applying effect: add_pixel_intensity_flash to segment 8
+Segment 9: frames 444-522 (2.60 seconds)
+No effect applied to segment 9 (random chance)
+Segment 10: frames 522-599 (2.57 seconds)
+No effect applied to segment 10 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-33c6_crf_10_ss_00_t_20.0.mp4
+Processing completed in 5.63 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-33c6_crf_10_ss_00_t_20.0.mp4
+
+[47/93] Processing: raw_videos_720p/Gaming_720P-40b2_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 9 segments
+Segment 1: frames 0-54 (1.80 seconds)
+Segment 2: frames 54-143 (2.97 seconds)
+Segment 3: frames 143-200 (1.90 seconds)
+Segment 4: frames 200-259 (1.97 seconds)
+Segment 5: frames 259-325 (2.20 seconds)
+Segment 6: frames 325-386 (2.03 seconds)
+Segment 7: frames 386-464 (2.60 seconds)
+Segment 8: frames 464-513 (1.63 seconds)
+Segment 9: frames 513-600 (2.90 seconds)
+Segment 1: frames 0-54 (1.80 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 54-143 (2.97 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 143-200 (1.90 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 200-259 (1.97 seconds)
+Applying effect: add_pixel_intensity_flash to segment 4
+Segment 5: frames 259-325 (2.20 seconds)
+Applying effect: add_pixel_intensity_flash to segment 5
+Segment 6: frames 325-386 (2.03 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 386-464 (2.60 seconds)
+Applying effect: add_pixel_intensity_flash to segment 7
+Segment 8: frames 464-513 (1.63 seconds)
+No effect applied to segment 8 (random chance)
+Segment 9: frames 513-600 (2.90 seconds)
+Applying effect: add_similar_pixels_flash to segment 9
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-40b2_crf_10_ss_00_t_20.0.mp4
+Processing completed in 34.91 seconds
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-40b2_crf_10_ss_00_t_20.0.mp4
+
+[48/93] Processing: raw_videos_720p/Sports_720P-058f_crf_10_ss_00_t_20.0.mp4
+Further adjusted number of segments to 7 due to constraints
+Partitioning video into 7 segments
+Segment 1: frames 0-103 (3.43 seconds)
+Segment 2: frames 103-168 (2.17 seconds)
+Segment 3: frames 168-234 (2.20 seconds)
+Segment 4: frames 234-330 (3.20 seconds)
+Segment 5: frames 330-439 (3.63 seconds)
+Segment 6: frames 439-537 (3.27 seconds)
+Segment 7: frames 537-600 (2.10 seconds)
+Segment 1: frames 0-103 (3.43 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 103-168 (2.17 seconds)
+Applying effect: add_similar_pixels_flash to segment 2
+Segment 3: frames 168-234 (2.20 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 234-330 (3.20 seconds)
+Applying effect: add_pixel_intensity_flash to segment 4
+Segment 5: frames 330-439 (3.63 seconds)
+Applying effect: add_fullscreen_red_flash to segment 5
+Segment 6: frames 439-537 (3.27 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 537-600 (2.10 seconds)
+Applying effect: add_pixel_intensity_flash to segment 7
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-058f_crf_10_ss_00_t_20.0.mp4
+Processing completed in 25.76 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-058f_crf_10_ss_00_t_20.0.mp4
+
+[49/93] Processing: raw_videos_720p/Sports_720P-5ea4_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 9 segments
+Segment 1: frames 0-68 (2.27 seconds)
+Segment 2: frames 68-137 (2.30 seconds)
+Segment 3: frames 137-205 (2.27 seconds)
+Segment 4: frames 205-294 (2.97 seconds)
+Segment 5: frames 294-368 (2.47 seconds)
+Segment 6: frames 368-445 (2.57 seconds)
+Segment 7: frames 445-493 (1.60 seconds)
+Segment 8: frames 493-562 (2.30 seconds)
+Segment 9: frames 562-600 (1.27 seconds)
+Segment 1: frames 0-68 (2.27 seconds)
+Applying effect: add_red_flash_effect to segment 1
+Segment 2: frames 68-137 (2.30 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 137-205 (2.27 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 205-294 (2.97 seconds)
+Applying effect: add_rgb_flash_effect to segment 4
+Segment 5: frames 294-368 (2.47 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 368-445 (2.57 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 6
+Segment 7: frames 445-493 (1.60 seconds)
+Applying effect: add_extended_white_flash to segment 7
+Segment 8: frames 493-562 (2.30 seconds)
+Applying effect: add_party_flash_effect to segment 8
+Segment 9: frames 562-600 (1.27 seconds)
+Applying effect: add_police_flash_effect to segment 9
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-5ea4_crf_10_ss_00_t_20.0.mp4
+Processing completed in 42.40 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-5ea4_crf_10_ss_00_t_20.0.mp4
+
+[50/93] Processing: raw_videos_720p/NewsClip_720P-0c81_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 10 segments
+Segment 1: frames 0-76 (2.53 seconds)
+Segment 2: frames 76-134 (1.93 seconds)
+Segment 3: frames 134-204 (2.33 seconds)
+Segment 4: frames 204-248 (1.47 seconds)
+Segment 5: frames 248-324 (2.53 seconds)
+Segment 6: frames 324-382 (1.93 seconds)
+Segment 7: frames 382-425 (1.43 seconds)
+Segment 8: frames 425-478 (1.77 seconds)
+Segment 9: frames 478-535 (1.90 seconds)
+Segment 10: frames 535-599 (2.13 seconds)
+Segment 1: frames 0-76 (2.53 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 76-134 (1.93 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 134-204 (2.33 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 204-248 (1.47 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 248-324 (2.53 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 324-382 (1.93 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 6
+Segment 7: frames 382-425 (1.43 seconds)
+Applying effect: add_red_flash_effect to segment 7
+Segment 8: frames 425-478 (1.77 seconds)
+Applying effect: add_party_flash_effect to segment 8
+Segment 9: frames 478-535 (1.90 seconds)
+Applying effect: add_fullscreen_red_flash to segment 9
+Segment 10: frames 535-599 (2.13 seconds)
+No effect applied to segment 10 (random chance)
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-0c81_crf_10_ss_00_t_20.0.mp4
+Processing completed in 8.26 seconds
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-0c81_crf_10_ss_00_t_20.0.mp4
+
+[51/93] Processing: raw_videos_720p/HowTo_720P-12f7_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 8 segments
+Segment 1: frames 0-88 (2.93 seconds)
+Segment 2: frames 88-140 (1.73 seconds)
+Segment 3: frames 140-219 (2.63 seconds)
+Segment 4: frames 219-260 (1.37 seconds)
+Segment 5: frames 260-301 (1.37 seconds)
+Segment 6: frames 301-368 (2.23 seconds)
+Segment 7: frames 368-423 (1.83 seconds)
+Segment 8: frames 423-600 (5.90 seconds)
+Segment 1: frames 0-88 (2.93 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Segment 2: frames 88-140 (1.73 seconds)
+Applying effect: add_extended_white_flash to segment 2
+Segment 3: frames 140-219 (2.63 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 219-260 (1.37 seconds)
+Applying effect: add_red_flash_effect to segment 4
+Segment 5: frames 260-301 (1.37 seconds)
+Applying effect: add_police_flash_effect to segment 5
+Segment 6: frames 301-368 (2.23 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 6
+Segment 7: frames 368-423 (1.83 seconds)
+Applying effect: add_rgb_flash_effect to segment 7
+Segment 8: frames 423-600 (5.90 seconds)
+Applying effect: add_red_flash_effect to segment 8
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-12f7_crf_10_ss_00_t_20.0.mp4
+Processing completed in 23.48 seconds
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-12f7_crf_10_ss_00_t_20.0.mp4
+
+[52/93] Processing: raw_videos_720p/Vlog_720P-5364_crf_10_ss_00_t_20.0.mp4
+Further adjusted number of segments to 9 due to constraints
+Partitioning video into 9 segments
+Segment 1: frames 0-74 (2.47 seconds)
+Segment 2: frames 74-156 (2.73 seconds)
+Segment 3: frames 156-210 (1.80 seconds)
+Segment 4: frames 210-269 (1.97 seconds)
+Segment 5: frames 269-340 (2.37 seconds)
+Segment 6: frames 340-408 (2.27 seconds)
+Segment 7: frames 408-477 (2.30 seconds)
+Segment 8: frames 477-527 (1.67 seconds)
+Segment 9: frames 527-600 (2.43 seconds)
+Segment 1: frames 0-74 (2.47 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Segment 2: frames 74-156 (2.73 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 156-210 (1.80 seconds)
+Applying effect: add_red_flash_effect to segment 3
+Segment 4: frames 210-269 (1.97 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Segment 5: frames 269-340 (2.37 seconds)
+Applying effect: add_fullscreen_red_flash to segment 5
+Segment 6: frames 340-408 (2.27 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 408-477 (2.30 seconds)
+No effect applied to segment 7 (random chance)
+Segment 8: frames 477-527 (1.67 seconds)
+Applying effect: add_rgb_flash_effect to segment 8
+Segment 9: frames 527-600 (2.43 seconds)
+No effect applied to segment 9 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-5364_crf_10_ss_00_t_20.0.mp4
+Processing completed in 15.01 seconds
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-5364_crf_10_ss_00_t_20.0.mp4
+
+[53/93] Processing: raw_videos_720p/Animation_720P-2525_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 5 segments
+Segment 1: frames 0-109 (3.63 seconds)
+Segment 2: frames 109-277 (5.60 seconds)
+Segment 3: frames 277-357 (2.67 seconds)
+Segment 4: frames 357-510 (5.10 seconds)
+Segment 5: frames 510-600 (3.00 seconds)
+Segment 1: frames 0-109 (3.63 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Segment 2: frames 109-277 (5.60 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 277-357 (2.67 seconds)
+Applying effect: add_extended_white_flash to segment 3
+Segment 4: frames 357-510 (5.10 seconds)
+Applying effect: add_rgb_flash_effect to segment 4
+Segment 5: frames 510-600 (3.00 seconds)
+No effect applied to segment 5 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-2525_crf_10_ss_00_t_20.0.mp4
+Processing completed in 24.32 seconds
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-2525_crf_10_ss_00_t_20.0.mp4
+
+[54/93] Processing: raw_videos_720p/Animation_720P-13b7_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-81 (2.70 seconds)
+Segment 2: frames 81-146 (2.17 seconds)
+Segment 3: frames 146-190 (1.47 seconds)
+Segment 4: frames 190-293 (3.43 seconds)
+Segment 5: frames 293-338 (1.50 seconds)
+Segment 6: frames 338-411 (2.43 seconds)
+Segment 7: frames 411-599 (6.27 seconds)
+Segment 1: frames 0-81 (2.70 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Segment 2: frames 81-146 (2.17 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 146-190 (1.47 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 190-293 (3.43 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Segment 5: frames 293-338 (1.50 seconds)
+Applying effect: add_extended_white_flash to segment 5
+Segment 6: frames 338-411 (2.43 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 411-599 (6.27 seconds)
+No effect applied to segment 7 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-13b7_crf_10_ss_00_t_20.0.mp4
+Processing completed in 33.05 seconds
+Corrupted video saved to: corrupted_videos_720P/Animation_720P-13b7_crf_10_ss_00_t_20.0.mp4
+
+[55/93] Processing: raw_videos_720p/Gaming_720P-103a_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-94 (3.13 seconds)
+Segment 2: frames 94-199 (3.50 seconds)
+Segment 3: frames 199-283 (2.80 seconds)
+Segment 4: frames 283-599 (10.53 seconds)
+Segment 1: frames 0-94 (3.13 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 94-199 (3.50 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 199-283 (2.80 seconds)
+Applying effect: add_rgb_flash_effect to segment 3
+Segment 4: frames 283-599 (10.53 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-103a_crf_10_ss_00_t_20.0.mp4
+Processing completed in 43.37 seconds
+Corrupted video saved to: corrupted_videos_720P/Gaming_720P-103a_crf_10_ss_00_t_20.0.mp4
+
+[56/93] Processing: raw_videos_720p/Lecture_720P-07e0_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-77 (2.57 seconds)
+Segment 2: frames 77-261 (6.13 seconds)
+Segment 3: frames 261-396 (4.50 seconds)
+Segment 4: frames 396-600 (6.80 seconds)
+Segment 1: frames 0-77 (2.57 seconds)
+Applying effect: add_police_flash_effect to segment 1
+Segment 2: frames 77-261 (6.13 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 261-396 (4.50 seconds)
+Applying effect: add_rgb_flash_effect to segment 3
+Segment 4: frames 396-600 (6.80 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-07e0_crf_10_ss_00_t_20.0.mp4
+Processing completed in 30.92 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-07e0_crf_10_ss_00_t_20.0.mp4
+
+[57/93] Processing: raw_videos_720p/Vlog_720P-03f9_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-599 (19.97 seconds)
+Segment 1: frames 0-599 (19.97 seconds)
+Applying effect: add_fullscreen_red_flash to segment 1
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-03f9_crf_10_ss_00_t_20.0.mp4
+Processing completed in 12.09 seconds
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-03f9_crf_10_ss_00_t_20.0.mp4
+
+[58/93] Processing: raw_videos_720p/Vlog_720P-3e9c_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 2 segments
+Segment 1: frames 0-195 (6.50 seconds)
+Segment 2: frames 195-599 (13.47 seconds)
+Segment 1: frames 0-195 (6.50 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Segment 2: frames 195-599 (13.47 seconds)
+Applying effect: add_rgb_flash_effect to segment 2
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-3e9c_crf_10_ss_00_t_20.0.mp4
+Processing completed in 66.04 seconds
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-3e9c_crf_10_ss_00_t_20.0.mp4
+
+[59/93] Processing: raw_videos_720p/MusicVideo_720P-62df_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-88 (2.93 seconds)
+Segment 2: frames 88-266 (5.93 seconds)
+Segment 3: frames 266-393 (4.23 seconds)
+Segment 4: frames 393-599 (6.87 seconds)
+Segment 1: frames 0-88 (2.93 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Segment 2: frames 88-266 (5.93 seconds)
+Applying effect: add_pixel_intensity_flash to segment 2
+Segment 3: frames 266-393 (4.23 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 3
+Segment 4: frames 393-599 (6.87 seconds)
+No effect applied to segment 4 (random chance)
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-62df_crf_10_ss_00_t_20.0.mp4
+Processing completed in 40.56 seconds
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-62df_crf_10_ss_00_t_20.0.mp4
+
+[60/93] Processing: raw_videos_720p/TelevisionClip_720P-19de_crf_10_ss_00_t_20.0.mp4
+Further adjusted number of segments to 9 due to constraints
+Partitioning video into 9 segments
+Segment 1: frames 0-67 (2.23 seconds)
+Segment 2: frames 67-121 (1.80 seconds)
+Segment 3: frames 121-185 (2.13 seconds)
+Segment 4: frames 185-252 (2.23 seconds)
+Segment 5: frames 252-329 (2.57 seconds)
+Segment 6: frames 329-375 (1.53 seconds)
+Segment 7: frames 375-438 (2.10 seconds)
+Segment 8: frames 438-522 (2.80 seconds)
+Segment 9: frames 522-600 (2.60 seconds)
+Segment 1: frames 0-67 (2.23 seconds)
+Applying effect: add_fullscreen_red_flash to segment 1
+Segment 2: frames 67-121 (1.80 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 121-185 (2.13 seconds)
+Applying effect: add_police_flash_effect to segment 3
+Segment 4: frames 185-252 (2.23 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 252-329 (2.57 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 329-375 (1.53 seconds)
+Applying effect: add_fullscreen_red_flash to segment 6
+Segment 7: frames 375-438 (2.10 seconds)
+No effect applied to segment 7 (random chance)
+Segment 8: frames 438-522 (2.80 seconds)
+Applying effect: add_extended_white_flash to segment 8
+Segment 9: frames 522-600 (2.60 seconds)
+No effect applied to segment 9 (random chance)
+Corrupted video saved to: corrupted_videos_720P/TelevisionClip_720P-19de_crf_10_ss_00_t_20.0.mp4
+Processing completed in 11.34 seconds
+Corrupted video saved to: corrupted_videos_720P/TelevisionClip_720P-19de_crf_10_ss_00_t_20.0.mp4
+
+[61/93] Processing: raw_videos_720p/Lecture_720P-2b0f_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 8 segments
+Segment 1: frames 0-30 (1.00 seconds)
+Segment 2: frames 30-60 (1.00 seconds)
+Segment 3: frames 60-90 (1.00 seconds)
+Segment 4: frames 90-120 (1.00 seconds)
+Segment 5: frames 120-150 (1.00 seconds)
+Segment 6: frames 150-180 (1.00 seconds)
+Segment 7: frames 180-210 (1.00 seconds)
+Segment 8: frames 210-241 (1.03 seconds)
+Segment 1: frames 0-30 (1.00 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 30-60 (1.00 seconds)
+Applying effect: add_pixel_intensity_flash to segment 2
+Segment 3: frames 60-90 (1.00 seconds)
+Applying effect: add_red_flash_effect to segment 3
+Segment 4: frames 90-120 (1.00 seconds)
+Applying effect: add_party_flash_effect to segment 4
+Segment 5: frames 120-150 (1.00 seconds)
+Applying effect: add_police_flash_effect to segment 5
+Segment 6: frames 150-180 (1.00 seconds)
+Applying effect: add_similar_pixels_flash to segment 6
+Segment 7: frames 180-210 (1.00 seconds)
+Applying effect: add_extended_white_flash to segment 7
+Segment 8: frames 210-241 (1.03 seconds)
+Applying effect: add_extended_white_flash to segment 8
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-2b0f_crf_10_ss_00_t_20.0.mp4
+Processing completed in 12.72 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-2b0f_crf_10_ss_00_t_20.0.mp4
+
+[62/93] Processing: raw_videos_720p/Sports_720P-5e39_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-106 (3.53 seconds)
+Segment 2: frames 106-156 (1.67 seconds)
+Segment 3: frames 156-286 (4.33 seconds)
+Segment 4: frames 286-341 (1.83 seconds)
+Segment 5: frames 341-427 (2.87 seconds)
+Segment 6: frames 427-520 (3.10 seconds)
+Segment 7: frames 520-600 (2.67 seconds)
+Segment 1: frames 0-106 (3.53 seconds)
+Applying effect: add_similar_pixels_flash to segment 1
+Segment 2: frames 106-156 (1.67 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 156-286 (4.33 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 286-341 (1.83 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 341-427 (2.87 seconds)
+Applying effect: add_red_flash_effect to segment 5
+Segment 6: frames 427-520 (3.10 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 520-600 (2.67 seconds)
+Applying effect: add_party_flash_effect to segment 7
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-5e39_crf_10_ss_00_t_20.0.mp4
+Processing completed in 33.29 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-5e39_crf_10_ss_00_t_20.0.mp4
+
+[63/93] Processing: raw_videos_720p/LyricVideo_720P-739a_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-113 (3.77 seconds)
+Segment 2: frames 113-189 (2.53 seconds)
+Segment 3: frames 189-293 (3.47 seconds)
+Segment 4: frames 293-386 (3.10 seconds)
+Segment 5: frames 386-499 (3.77 seconds)
+Segment 6: frames 499-570 (2.37 seconds)
+Segment 7: frames 570-600 (1.00 seconds)
+Segment 1: frames 0-113 (3.77 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 113-189 (2.53 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 189-293 (3.47 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 293-386 (3.10 seconds)
+Applying effect: add_extended_white_flash to segment 4
+Segment 5: frames 386-499 (3.77 seconds)
+Applying effect: add_fullscreen_red_flash to segment 5
+Segment 6: frames 499-570 (2.37 seconds)
+Applying effect: add_rgb_flash_effect to segment 6
+Segment 7: frames 570-600 (1.00 seconds)
+No effect applied to segment 7 (random chance)
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-739a_crf_10_ss_00_t_20.0.mp4
+Processing completed in 13.45 seconds
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-739a_crf_10_ss_00_t_20.0.mp4
+
+[64/93] Processing: raw_videos_720p/HowTo_720P-7878_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 5 segments
+Segment 1: frames 0-86 (2.87 seconds)
+Segment 2: frames 86-163 (2.57 seconds)
+Segment 3: frames 163-345 (6.07 seconds)
+Segment 4: frames 345-459 (3.80 seconds)
+Segment 5: frames 459-599 (4.67 seconds)
+Segment 1: frames 0-86 (2.87 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 86-163 (2.57 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 163-345 (6.07 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 345-459 (3.80 seconds)
+Applying effect: add_police_flash_effect to segment 4
+Segment 5: frames 459-599 (4.67 seconds)
+Applying effect: add_pixel_intensity_flash to segment 5
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-7878_crf_10_ss_00_t_20.0.mp4
+Processing completed in 14.70 seconds
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-7878_crf_10_ss_00_t_20.0.mp4
+
+[65/93] Processing: raw_videos_720p/CoverSong_720P-60d3_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 9 segments
+Segment 1: frames 0-51 (1.70 seconds)
+Segment 2: frames 51-88 (1.23 seconds)
+Segment 3: frames 88-184 (3.20 seconds)
+Segment 4: frames 184-251 (2.23 seconds)
+Segment 5: frames 251-330 (2.63 seconds)
+Segment 6: frames 330-403 (2.43 seconds)
+Segment 7: frames 403-452 (1.63 seconds)
+Segment 8: frames 452-506 (1.80 seconds)
+Segment 9: frames 506-600 (3.13 seconds)
+Segment 1: frames 0-51 (1.70 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Segment 2: frames 51-88 (1.23 seconds)
+Applying effect: add_police_flash_effect to segment 2
+Segment 3: frames 88-184 (3.20 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 184-251 (2.23 seconds)
+Applying effect: add_pixel_intensity_flash to segment 4
+Segment 5: frames 251-330 (2.63 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 330-403 (2.43 seconds)
+Applying effect: add_pixel_intensity_flash to segment 6
+Segment 7: frames 403-452 (1.63 seconds)
+Applying effect: add_pixel_intensity_flash to segment 7
+Segment 8: frames 452-506 (1.80 seconds)
+Applying effect: add_extended_white_flash to segment 8
+Segment 9: frames 506-600 (3.13 seconds)
+Applying effect: add_similar_pixels_flash to segment 9
+Corrupted video saved to: corrupted_videos_720P/CoverSong_720P-60d3_crf_10_ss_00_t_20.0.mp4
+Processing completed in 37.77 seconds
+Corrupted video saved to: corrupted_videos_720P/CoverSong_720P-60d3_crf_10_ss_00_t_20.0.mp4
+
+[66/93] Processing: raw_videos_720p/MusicVideo_720P-44c1_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-43 (1.43 seconds)
+Segment 2: frames 43-113 (2.33 seconds)
+Segment 3: frames 113-219 (3.53 seconds)
+Segment 4: frames 219-325 (3.53 seconds)
+Segment 5: frames 325-411 (2.87 seconds)
+Segment 6: frames 411-533 (4.07 seconds)
+Segment 7: frames 533-600 (2.23 seconds)
+Segment 1: frames 0-43 (1.43 seconds)
+Applying effect: add_police_flash_effect to segment 1
+Segment 2: frames 43-113 (2.33 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 113-219 (3.53 seconds)
+Applying effect: add_police_flash_effect to segment 3
+Segment 4: frames 219-325 (3.53 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 325-411 (2.87 seconds)
+Applying effect: add_police_flash_effect to segment 5
+Segment 6: frames 411-533 (4.07 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 6
+Segment 7: frames 533-600 (2.23 seconds)
+Applying effect: add_red_flash_effect to segment 7
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-44c1_crf_10_ss_00_t_20.0.mp4
+Processing completed in 53.08 seconds
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-44c1_crf_10_ss_00_t_20.0.mp4
+
+[67/93] Processing: raw_videos_720p/NewsClip_720P-23e0_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+Applying effect: add_police_flash_effect to segment 1
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-23e0_crf_10_ss_00_t_20.0.mp4
+Processing completed in 58.21 seconds
+Corrupted video saved to: corrupted_videos_720P/NewsClip_720P-23e0_crf_10_ss_00_t_20.0.mp4
+
+[68/93] Processing: raw_videos_720p/LiveMusic_720P-0d9f_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-72 (2.40 seconds)
+Segment 2: frames 72-174 (3.40 seconds)
+Segment 3: frames 174-231 (1.90 seconds)
+Segment 4: frames 231-329 (3.27 seconds)
+Segment 5: frames 329-405 (2.53 seconds)
+Segment 6: frames 405-479 (2.47 seconds)
+Segment 7: frames 479-600 (4.03 seconds)
+Segment 1: frames 0-72 (2.40 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 72-174 (3.40 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 174-231 (1.90 seconds)
+Applying effect: add_similar_pixels_flash to segment 3
+Segment 4: frames 231-329 (3.27 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 329-405 (2.53 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 405-479 (2.47 seconds)
+Applying effect: add_red_flash_effect to segment 6
+Segment 7: frames 479-600 (4.03 seconds)
+No effect applied to segment 7 (random chance)
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-0d9f_crf_10_ss_00_t_20.0.mp4
+Processing completed in 20.37 seconds
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-0d9f_crf_10_ss_00_t_20.0.mp4
+
+[69/93] Processing: raw_videos_720p/Sports_720P-2c06_crf_10_ss_00_t_20.0.mp4
+Further adjusted number of segments to 9 due to constraints
+Partitioning video into 9 segments
+Segment 1: frames 0-54 (1.80 seconds)
+Segment 2: frames 54-136 (2.73 seconds)
+Segment 3: frames 136-195 (1.97 seconds)
+Segment 4: frames 195-262 (2.23 seconds)
+Segment 5: frames 262-314 (1.73 seconds)
+Segment 6: frames 314-395 (2.70 seconds)
+Segment 7: frames 395-457 (2.07 seconds)
+Segment 8: frames 457-533 (2.53 seconds)
+Segment 9: frames 533-599 (2.20 seconds)
+Segment 1: frames 0-54 (1.80 seconds)
+Applying effect: add_fullscreen_red_flash to segment 1
+Segment 2: frames 54-136 (2.73 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 2
+Segment 3: frames 136-195 (1.97 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 3
+Segment 4: frames 195-262 (2.23 seconds)
+Applying effect: add_police_flash_effect to segment 4
+Segment 5: frames 262-314 (1.73 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 314-395 (2.70 seconds)
+Applying effect: add_fullscreen_red_flash to segment 6
+Segment 7: frames 395-457 (2.07 seconds)
+Applying effect: add_red_flash_effect to segment 7
+Segment 8: frames 457-533 (2.53 seconds)
+Applying effect: add_extended_white_flash to segment 8
+Segment 9: frames 533-599 (2.20 seconds)
+No effect applied to segment 9 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-2c06_crf_10_ss_00_t_20.0.mp4
+Processing completed in 19.18 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-2c06_crf_10_ss_00_t_20.0.mp4
+
+[70/93] Processing: raw_videos_720p/VerticalVideo_720P-42f2_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-66 (2.20 seconds)
+Segment 2: frames 66-255 (6.30 seconds)
+Segment 3: frames 255-318 (2.10 seconds)
+Segment 4: frames 318-600 (9.40 seconds)
+Segment 1: frames 0-66 (2.20 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 66-255 (6.30 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 255-318 (2.10 seconds)
+Applying effect: add_party_flash_effect to segment 3
+Segment 4: frames 318-600 (9.40 seconds)
+No effect applied to segment 4 (random chance)
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-42f2_crf_10_ss_00_t_20.0.mp4
+Processing completed in 3.14 seconds
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-42f2_crf_10_ss_00_t_20.0.mp4
+
+[71/93] Processing: raw_videos_720p/MusicVideo_720P-3698_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 5 segments
+Segment 1: frames 0-165 (5.50 seconds)
+Segment 2: frames 165-249 (2.80 seconds)
+Segment 3: frames 249-376 (4.23 seconds)
+Segment 4: frames 376-448 (2.40 seconds)
+Segment 5: frames 448-600 (5.07 seconds)
+Segment 1: frames 0-165 (5.50 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 165-249 (2.80 seconds)
+Applying effect: add_extended_white_flash to segment 2
+Segment 3: frames 249-376 (4.23 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 376-448 (2.40 seconds)
+Applying effect: add_similar_pixels_flash to segment 4
+Segment 5: frames 448-600 (5.07 seconds)
+Applying effect: add_similar_pixels_flash to segment 5
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-3698_crf_10_ss_00_t_20.0.mp4
+Processing completed in 74.27 seconds
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-3698_crf_10_ss_00_t_20.0.mp4
+
+[72/93] Processing: raw_videos_720p/LiveMusic_720P-267b_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 2 segments
+Segment 1: frames 0-405 (13.50 seconds)
+Segment 2: frames 405-600 (6.50 seconds)
+Segment 1: frames 0-405 (13.50 seconds)
+Applying effect: add_rgb_flash_effect to segment 1
+Segment 2: frames 405-600 (6.50 seconds)
+Applying effect: add_extended_white_flash to segment 2
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-267b_crf_10_ss_00_t_20.0.mp4
+Processing completed in 81.20 seconds
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-267b_crf_10_ss_00_t_20.0.mp4
+
+[73/93] Processing: raw_videos_720p/Vlog_720P-2929_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 2 segments
+Segment 1: frames 0-454 (15.13 seconds)
+Segment 2: frames 454-599 (4.83 seconds)
+Segment 1: frames 0-454 (15.13 seconds)
+Applying effect: add_fullscreen_red_flash to segment 1
+Segment 2: frames 454-599 (4.83 seconds)
+Applying effect: add_similar_pixels_flash to segment 2
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-2929_crf_10_ss_00_t_20.0.mp4
+Processing completed in 60.66 seconds
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-2929_crf_10_ss_00_t_20.0.mp4
+
+[74/93] Processing: raw_videos_720p/Vlog_720P-4e3d_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-56 (1.87 seconds)
+Segment 2: frames 56-295 (7.97 seconds)
+Segment 3: frames 295-349 (1.80 seconds)
+Segment 4: frames 349-600 (8.37 seconds)
+Segment 1: frames 0-56 (1.87 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 56-295 (7.97 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 2
+Segment 3: frames 295-349 (1.80 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 3
+Segment 4: frames 349-600 (8.37 seconds)
+No effect applied to segment 4 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-4e3d_crf_10_ss_00_t_20.0.mp4
+Processing completed in 18.96 seconds
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-4e3d_crf_10_ss_00_t_20.0.mp4
+
+[75/93] Processing: raw_videos_720p/VR_720P-09ae_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-49 (1.63 seconds)
+Segment 2: frames 49-129 (2.67 seconds)
+Segment 3: frames 129-170 (1.37 seconds)
+Segment 4: frames 170-354 (6.13 seconds)
+Segment 1: frames 0-49 (1.63 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 49-129 (2.67 seconds)
+Applying effect: add_police_flash_effect to segment 2
+Segment 3: frames 129-170 (1.37 seconds)
+Applying effect: add_similar_pixels_flash to segment 3
+Segment 4: frames 170-354 (6.13 seconds)
+Applying effect: add_party_flash_effect to segment 4
+Corrupted video saved to: corrupted_videos_720P/VR_720P-09ae_crf_10_ss_00_t_20.0.mp4
+Processing completed in 21.57 seconds
+Corrupted video saved to: corrupted_videos_720P/VR_720P-09ae_crf_10_ss_00_t_20.0.mp4
+
+[76/93] Processing: raw_videos_720p/LiveMusic_720P-58db_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 2 segments
+Segment 1: frames 0-332 (11.07 seconds)
+Segment 2: frames 332-600 (8.93 seconds)
+Segment 1: frames 0-332 (11.07 seconds)
+Applying effect: add_extended_white_flash to segment 1
+Segment 2: frames 332-600 (8.93 seconds)
+Applying effect: add_party_flash_effect to segment 2
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-58db_crf_10_ss_00_t_20.0.mp4
+Processing completed in 13.56 seconds
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-58db_crf_10_ss_00_t_20.0.mp4
+
+[77/93] Processing: raw_videos_720p/MusicVideo_720P-4ad2_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 2 segments
+Segment 1: frames 0-472 (15.73 seconds)
+Segment 2: frames 472-600 (4.27 seconds)
+Segment 1: frames 0-472 (15.73 seconds)
+Applying effect: add_rgb_flash_effect to segment 1
+Segment 2: frames 472-600 (4.27 seconds)
+No effect applied to segment 2 (random chance)
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-4ad2_crf_10_ss_00_t_20.0.mp4
+Processing completed in 38.68 seconds
+Corrupted video saved to: corrupted_videos_720P/MusicVideo_720P-4ad2_crf_10_ss_00_t_20.0.mp4
+
+[78/93] Processing: raw_videos_720p/VR_720P-339f_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 5 segments
+Segment 1: frames 0-129 (4.30 seconds)
+Segment 2: frames 129-258 (4.30 seconds)
+Segment 3: frames 258-365 (3.57 seconds)
+Segment 4: frames 365-509 (4.80 seconds)
+Segment 5: frames 509-600 (3.03 seconds)
+Segment 1: frames 0-129 (4.30 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 129-258 (4.30 seconds)
+Applying effect: add_police_flash_effect to segment 2
+Segment 3: frames 258-365 (3.57 seconds)
+Applying effect: add_red_flash_effect to segment 3
+Segment 4: frames 365-509 (4.80 seconds)
+Applying effect: add_rgb_flash_effect to segment 4
+Segment 5: frames 509-600 (3.03 seconds)
+No effect applied to segment 5 (random chance)
+Corrupted video saved to: corrupted_videos_720P/VR_720P-339f_crf_10_ss_00_t_20.0.mp4
+Processing completed in 20.29 seconds
+Corrupted video saved to: corrupted_videos_720P/VR_720P-339f_crf_10_ss_00_t_20.0.mp4
+
+[79/93] Processing: raw_videos_720p/HowTo_720P-6323_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-67 (2.23 seconds)
+Segment 2: frames 67-132 (2.17 seconds)
+Segment 3: frames 132-269 (4.57 seconds)
+Segment 4: frames 269-600 (11.03 seconds)
+Segment 1: frames 0-67 (2.23 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 67-132 (2.17 seconds)
+Applying effect: add_red_flash_effect to segment 2
+Segment 3: frames 132-269 (4.57 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 269-600 (11.03 seconds)
+No effect applied to segment 4 (random chance)
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-6323_crf_10_ss_00_t_20.0.mp4
+Processing completed in 3.26 seconds
+Corrupted video saved to: corrupted_videos_720P/HowTo_720P-6323_crf_10_ss_00_t_20.0.mp4
+
+[80/93] Processing: raw_videos_720p/Lecture_720P-4c87_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-91 (3.03 seconds)
+Segment 2: frames 91-172 (2.70 seconds)
+Segment 3: frames 172-225 (1.77 seconds)
+Segment 4: frames 225-302 (2.57 seconds)
+Segment 5: frames 302-367 (2.17 seconds)
+Segment 6: frames 367-447 (2.67 seconds)
+Segment 7: frames 447-600 (5.10 seconds)
+Segment 1: frames 0-91 (3.03 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 91-172 (2.70 seconds)
+Applying effect: add_party_flash_effect to segment 2
+Segment 3: frames 172-225 (1.77 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 225-302 (2.57 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 4
+Segment 5: frames 302-367 (2.17 seconds)
+No effect applied to segment 5 (random chance)
+Segment 6: frames 367-447 (2.67 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 447-600 (5.10 seconds)
+No effect applied to segment 7 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-4c87_crf_10_ss_00_t_20.0.mp4
+Processing completed in 6.65 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-4c87_crf_10_ss_00_t_20.0.mp4
+
+[81/93] Processing: raw_videos_720p/VerticalVideo_720P-7517_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-600 (20.00 seconds)
+Segment 1: frames 0-600 (20.00 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-7517_crf_10_ss_00_t_20.0.mp4
+Processing completed in 6.01 seconds
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-7517_crf_10_ss_00_t_20.0.mp4
+
+[82/93] Processing: raw_videos_720p/Sports_720P-3eb4_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-78 (2.60 seconds)
+Segment 2: frames 78-255 (5.90 seconds)
+Segment 3: frames 255-345 (3.00 seconds)
+Segment 4: frames 345-600 (8.50 seconds)
+Segment 1: frames 0-78 (2.60 seconds)
+Applying effect: add_fullscreen_red_flash to segment 1
+Segment 2: frames 78-255 (5.90 seconds)
+Applying effect: add_extended_white_flash to segment 2
+Segment 3: frames 255-345 (3.00 seconds)
+Applying effect: add_similar_pixels_flash to segment 3
+Segment 4: frames 345-600 (8.50 seconds)
+No effect applied to segment 4 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-3eb4_crf_10_ss_00_t_20.0.mp4
+Processing completed in 35.97 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-3eb4_crf_10_ss_00_t_20.0.mp4
+
+[83/93] Processing: raw_videos_720p/LyricVideo_720P-1c89_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-52 (1.73 seconds)
+Segment 2: frames 52-155 (3.43 seconds)
+Segment 3: frames 155-242 (2.90 seconds)
+Segment 4: frames 242-336 (3.13 seconds)
+Segment 5: frames 336-421 (2.83 seconds)
+Segment 6: frames 421-472 (1.70 seconds)
+Segment 7: frames 472-600 (4.27 seconds)
+Segment 1: frames 0-52 (1.73 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 52-155 (3.43 seconds)
+Applying effect: add_red_flash_effect to segment 2
+Segment 3: frames 155-242 (2.90 seconds)
+Applying effect: add_fullscreen_red_flash to segment 3
+Segment 4: frames 242-336 (3.13 seconds)
+Applying effect: add_extended_white_flash to segment 4
+Segment 5: frames 336-421 (2.83 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 5
+Segment 6: frames 421-472 (1.70 seconds)
+Applying effect: add_fullscreen_red_flash to segment 6
+Segment 7: frames 472-600 (4.27 seconds)
+Applying effect: add_party_flash_effect to segment 7
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-1c89_crf_10_ss_00_t_20.0.mp4
+Processing completed in 13.33 seconds
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-1c89_crf_10_ss_00_t_20.0.mp4
+
+[84/93] Processing: raw_videos_720p/Lecture_720P-094d_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 4 segments
+Segment 1: frames 0-106 (3.53 seconds)
+Segment 2: frames 106-196 (3.00 seconds)
+Segment 3: frames 196-417 (7.37 seconds)
+Segment 4: frames 417-600 (6.10 seconds)
+Segment 1: frames 0-106 (3.53 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 106-196 (3.00 seconds)
+Applying effect: add_extended_white_flash to segment 2
+Segment 3: frames 196-417 (7.37 seconds)
+Applying effect: add_party_flash_effect to segment 3
+Segment 4: frames 417-600 (6.10 seconds)
+Applying effect: add_rgb_flash_effect to segment 4
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-094d_crf_10_ss_00_t_20.0.mp4
+Processing completed in 19.43 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-094d_crf_10_ss_00_t_20.0.mp4
+
+[85/93] Processing: raw_videos_720p/Sports_720P-4c6f_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 5 segments
+Segment 1: frames 0-175 (5.83 seconds)
+Segment 2: frames 175-255 (2.67 seconds)
+Segment 3: frames 255-382 (4.23 seconds)
+Segment 4: frames 382-537 (5.17 seconds)
+Segment 5: frames 537-600 (2.10 seconds)
+Segment 1: frames 0-175 (5.83 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 175-255 (2.67 seconds)
+Applying effect: add_fullscreen_red_flash to segment 2
+Segment 3: frames 255-382 (4.23 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 3
+Segment 4: frames 382-537 (5.17 seconds)
+Applying effect: add_police_flash_effect to segment 4
+Segment 5: frames 537-600 (2.10 seconds)
+Applying effect: add_pixel_intensity_flash to segment 5
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-4c6f_crf_10_ss_00_t_20.0.mp4
+Processing completed in 41.86 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-4c6f_crf_10_ss_00_t_20.0.mp4
+
+[86/93] Processing: raw_videos_720p/LyricVideo_720P-068d_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 10 segments
+Segment 1: frames 0-55 (1.83 seconds)
+Segment 2: frames 55-94 (1.30 seconds)
+Segment 3: frames 94-142 (1.60 seconds)
+Segment 4: frames 142-212 (2.33 seconds)
+Segment 5: frames 212-287 (2.50 seconds)
+Segment 6: frames 287-332 (1.50 seconds)
+Segment 7: frames 332-387 (1.83 seconds)
+Segment 8: frames 387-468 (2.70 seconds)
+Segment 9: frames 468-509 (1.37 seconds)
+Segment 10: frames 509-600 (3.03 seconds)
+Segment 1: frames 0-55 (1.83 seconds)
+No effect applied to segment 1 (random chance)
+Segment 2: frames 55-94 (1.30 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 94-142 (1.60 seconds)
+Applying effect: add_similar_pixels_flash to segment 3
+Segment 4: frames 142-212 (2.33 seconds)
+Applying effect: add_pixel_intensity_flash to segment 4
+Segment 5: frames 212-287 (2.50 seconds)
+Applying effect: add_similar_pixels_flash to segment 5
+Segment 6: frames 287-332 (1.50 seconds)
+Applying effect: add_similar_pixels_flash to segment 6
+Segment 7: frames 332-387 (1.83 seconds)
+Applying effect: add_similar_pixels_flash to segment 7
+Segment 8: frames 387-468 (2.70 seconds)
+Applying effect: add_rgb_flash_effect to segment 8
+Segment 9: frames 468-509 (1.37 seconds)
+No effect applied to segment 9 (random chance)
+Segment 10: frames 509-600 (3.03 seconds)
+No effect applied to segment 10 (random chance)
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-068d_crf_10_ss_00_t_20.0.mp4
+Processing completed in 80.39 seconds
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-068d_crf_10_ss_00_t_20.0.mp4
+
+[87/93] Processing: raw_videos_720p/Vlog_720P-60f8_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 8 segments
+Segment 1: frames 0-47 (1.57 seconds)
+Segment 2: frames 47-151 (3.47 seconds)
+Segment 3: frames 151-209 (1.93 seconds)
+Segment 4: frames 209-279 (2.33 seconds)
+Segment 5: frames 279-327 (1.60 seconds)
+Segment 6: frames 327-396 (2.30 seconds)
+Segment 7: frames 396-450 (1.80 seconds)
+Segment 8: frames 450-599 (4.97 seconds)
+Segment 1: frames 0-47 (1.57 seconds)
+Applying effect: add_police_flash_effect to segment 1
+Segment 2: frames 47-151 (3.47 seconds)
+Applying effect: add_pixel_intensity_flash to segment 2
+Segment 3: frames 151-209 (1.93 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 209-279 (2.33 seconds)
+Applying effect: add_rgb_flash_effect to segment 4
+Segment 5: frames 279-327 (1.60 seconds)
+Applying effect: add_party_flash_effect to segment 5
+Segment 6: frames 327-396 (2.30 seconds)
+Applying effect: add_rgb_flash_effect to segment 6
+Segment 7: frames 396-450 (1.80 seconds)
+No effect applied to segment 7 (random chance)
+Segment 8: frames 450-599 (4.97 seconds)
+No effect applied to segment 8 (random chance)
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-60f8_crf_10_ss_00_t_20.0.mp4
+Processing completed in 23.19 seconds
+Corrupted video saved to: corrupted_videos_720P/Vlog_720P-60f8_crf_10_ss_00_t_20.0.mp4
+
+[88/93] Processing: raw_videos_720p/LiveMusic_720P-66df_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-599 (19.97 seconds)
+Segment 1: frames 0-599 (19.97 seconds)
+Applying effect: add_pixel_intensity_flash to segment 1
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-66df_crf_10_ss_00_t_20.0.mp4
+Processing completed in 11.33 seconds
+Corrupted video saved to: corrupted_videos_720P/LiveMusic_720P-66df_crf_10_ss_00_t_20.0.mp4
+
+[89/93] Processing: raw_videos_720p/Sports_720P-2c80_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 7 segments
+Segment 1: frames 0-124 (4.13 seconds)
+Segment 2: frames 124-184 (2.00 seconds)
+Segment 3: frames 184-309 (4.17 seconds)
+Segment 4: frames 309-415 (3.53 seconds)
+Segment 5: frames 415-496 (2.70 seconds)
+Segment 6: frames 496-561 (2.17 seconds)
+Segment 7: frames 561-599 (1.27 seconds)
+Segment 1: frames 0-124 (4.13 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 1
+Segment 2: frames 124-184 (2.00 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 184-309 (4.17 seconds)
+Applying effect: add_party_flash_effect to segment 3
+Segment 4: frames 309-415 (3.53 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 415-496 (2.70 seconds)
+Applying effect: add_police_flash_effect to segment 5
+Segment 6: frames 496-561 (2.17 seconds)
+No effect applied to segment 6 (random chance)
+Segment 7: frames 561-599 (1.27 seconds)
+Applying effect: add_party_flash_effect to segment 7
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-2c80_crf_10_ss_00_t_20.0.mp4
+Processing completed in 16.03 seconds
+Corrupted video saved to: corrupted_videos_720P/Sports_720P-2c80_crf_10_ss_00_t_20.0.mp4
+
+[90/93] Processing: raw_videos_720p/Lecture_720P-7e40_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 3 segments
+Segment 1: frames 0-322 (10.73 seconds)
+Segment 2: frames 322-537 (7.17 seconds)
+Segment 3: frames 537-600 (2.10 seconds)
+Segment 1: frames 0-322 (10.73 seconds)
+Applying effect: add_police_flash_effect to segment 1
+Segment 2: frames 322-537 (7.17 seconds)
+Applying effect: add_police_flash_effect to segment 2
+Segment 3: frames 537-600 (2.10 seconds)
+Applying effect: add_similar_pixels_flash_v2 to segment 3
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-7e40_crf_10_ss_00_t_20.0.mp4
+Processing completed in 99.88 seconds
+Corrupted video saved to: corrupted_videos_720P/Lecture_720P-7e40_crf_10_ss_00_t_20.0.mp4
+
+[91/93] Processing: raw_videos_720p/VerticalVideo_720P-665d_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 6 segments
+Segment 1: frames 0-121 (4.03 seconds)
+Segment 2: frames 121-257 (4.53 seconds)
+Segment 3: frames 257-303 (1.53 seconds)
+Segment 4: frames 303-432 (4.30 seconds)
+Segment 5: frames 432-531 (3.30 seconds)
+Segment 6: frames 531-600 (2.30 seconds)
+Segment 1: frames 0-121 (4.03 seconds)
+Applying effect: add_rgb_flash_effect to segment 1
+Segment 2: frames 121-257 (4.53 seconds)
+No effect applied to segment 2 (random chance)
+Segment 3: frames 257-303 (1.53 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 303-432 (4.30 seconds)
+Applying effect: add_similar_pixels_flash to segment 4
+Segment 5: frames 432-531 (3.30 seconds)
+Applying effect: add_police_flash_effect to segment 5
+Segment 6: frames 531-600 (2.30 seconds)
+Applying effect: add_pixel_intensity_flash to segment 6
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-665d_crf_10_ss_00_t_20.0.mp4
+Processing completed in 63.25 seconds
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-665d_crf_10_ss_00_t_20.0.mp4
+
+[92/93] Processing: raw_videos_720p/VerticalVideo_720P-669d_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 1 segments
+Segment 1: frames 0-599 (19.97 seconds)
+Segment 1: frames 0-599 (19.97 seconds)
+Applying effect: add_extended_white_flash to segment 1
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-669d_crf_10_ss_00_t_20.0.mp4
+Processing completed in 17.87 seconds
+Corrupted video saved to: corrupted_videos_720P/VerticalVideo_720P-669d_crf_10_ss_00_t_20.0.mp4
+
+[93/93] Processing: raw_videos_720p/LyricVideo_720P-7f44_crf_10_ss_00_t_20.0.mp4
+Partitioning video into 6 segments
+Segment 1: frames 0-57 (1.90 seconds)
+Segment 2: frames 57-136 (2.63 seconds)
+Segment 3: frames 136-218 (2.73 seconds)
+Segment 4: frames 218-321 (3.43 seconds)
+Segment 5: frames 321-385 (2.13 seconds)
+Segment 6: frames 385-600 (7.17 seconds)
+Segment 1: frames 0-57 (1.90 seconds)
+Applying effect: add_party_flash_effect to segment 1
+Segment 2: frames 57-136 (2.63 seconds)
+Applying effect: add_party_flash_effect to segment 2
+Segment 3: frames 136-218 (2.73 seconds)
+No effect applied to segment 3 (random chance)
+Segment 4: frames 218-321 (3.43 seconds)
+No effect applied to segment 4 (random chance)
+Segment 5: frames 321-385 (2.13 seconds)
+Applying effect: add_similar_pixels_flash to segment 5
+Segment 6: frames 385-600 (7.17 seconds)
+Applying effect: add_fullscreen_red_flash to segment 6
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-7f44_crf_10_ss_00_t_20.0.mp4
+Processing completed in 23.06 seconds
+Corrupted video saved to: corrupted_videos_720P/LyricVideo_720P-7f44_crf_10_ss_00_t_20.0.mp4
+
+All videos processed!
