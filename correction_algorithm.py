@@ -555,7 +555,7 @@ def main():
     # Configuration parameters
     working_folder = "video1"  # Name of the subfolder containing video and JSON files
     json_filename = "results.json"  # Name of the JSON file within the working folder
-    output_suffix = "_flash_corrected"  # Suffix for the output video file
+    output_suffix = "_corrected"  # Suffix for the output video file
     
     try:
         # Initialize corrector
