@@ -1,0 +1,1452 @@
+# Parse the log file data
+videos = [
+    {
+        "filename": "Lecture_720P-1f22_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 86, "duration": 2.87, "effect": 0},
+            {"start_frame": 86, "end_frame": 145, "duration": 1.97, "effect": 1},
+            {"start_frame": 145, "end_frame": 293, "duration": 4.93, "effect": 1},
+            {"start_frame": 293, "end_frame": 461, "duration": 5.6, "effect": 0},
+            {"start_frame": 461, "end_frame": 599, "duration": 4.6, "effect": 0},
+            {"start_frame": 0, "end_frame": 86, "duration": 2.87, "effect": 0},
+            {"start_frame": 86, "end_frame": 145, "duration": 1.97, "effect": 1},
+            {"start_frame": 145, "end_frame": 293, "duration": 4.93, "effect": 1},
+            {"start_frame": 293, "end_frame": 461, "duration": 5.6, "effect": 0},
+            {"start_frame": 461, "end_frame": 599, "duration": 4.6, "effect": 0}
+        ]
+    },
+    {
+        "filename": "VR_720P-0641_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 50, "duration": 1.67, "effect": 0},
+            {"start_frame": 50, "end_frame": 164, "duration": 3.8, "effect": 1},
+            {"start_frame": 164, "end_frame": 252, "duration": 2.93, "effect": 1},
+            {"start_frame": 252, "end_frame": 318, "duration": 2.2, "effect": 1},
+            {"start_frame": 318, "end_frame": 359, "duration": 1.37, "effect": 1},
+            {"start_frame": 359, "end_frame": 445, "duration": 2.87, "effect": 1},
+            {"start_frame": 445, "end_frame": 546, "duration": 3.37, "effect": 0},
+            {"start_frame": 0, "end_frame": 50, "duration": 1.67, "effect": 0},
+            {"start_frame": 50, "end_frame": 164, "duration": 3.8, "effect": 1},
+            {"start_frame": 164, "end_frame": 252, "duration": 2.93, "effect": 1},
+            {"start_frame": 252, "end_frame": 318, "duration": 2.2, "effect": 1},
+            {"start_frame": 318, "end_frame": 359, "duration": 1.37, "effect": 1},
+            {"start_frame": 359, "end_frame": 445, "duration": 2.87, "effect": 1},
+            {"start_frame": 445, "end_frame": 546, "duration": 3.37, "effect": 0}
+        ]
+    },
+    {
+        "filename": "VerticalVideo_720P-19fa_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 53, "duration": 1.77, "effect": 1},
+            {"start_frame": 53, "end_frame": 117, "duration": 2.13, "effect": 1},
+            {"start_frame": 117, "end_frame": 179, "duration": 2.07, "effect": 1},
+            {"start_frame": 179, "end_frame": 266, "duration": 2.9, "effect": 1},
+            {"start_frame": 266, "end_frame": 321, "duration": 1.83, "effect": 1},
+            {"start_frame": 321, "end_frame": 390, "duration": 2.3, "effect": 0},
+            {"start_frame": 390, "end_frame": 490, "duration": 3.33, "effect": 0},
+            {"start_frame": 490, "end_frame": 600, "duration": 3.67, "effect": 1},
+            {"start_frame": 0, "end_frame": 53, "duration": 1.77, "effect": 1},
+            {"start_frame": 53, "end_frame": 117, "duration": 2.13, "effect": 1},
+            {"start_frame": 117, "end_frame": 179, "duration": 2.07, "effect": 1},
+            {"start_frame": 179, "end_frame": 266, "duration": 2.9, "effect": 1},
+            {"start_frame": 266, "end_frame": 321, "duration": 1.83, "effect": 1},
+            {"start_frame": 321, "end_frame": 390, "duration": 2.3, "effect": 0},
+            {"start_frame": 390, "end_frame": 490, "duration": 3.33, "effect": 0},
+            {"start_frame": 490, "end_frame": 600, "duration": 3.67, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Animation_720P-0116_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 58, "duration": 1.93, "effect": 1},
+            {"start_frame": 58, "end_frame": 117, "duration": 1.97, "effect": 1},
+            {"start_frame": 117, "end_frame": 182, "duration": 2.17, "effect": 1},
+            {"start_frame": 182, "end_frame": 258, "duration": 2.53, "effect": 1},
+            {"start_frame": 258, "end_frame": 382, "duration": 4.13, "effect": 1},
+            {"start_frame": 382, "end_frame": 432, "duration": 1.67, "effect": 1},
+            {"start_frame": 432, "end_frame": 600, "duration": 5.6, "effect": 1},
+            {"start_frame": 0, "end_frame": 58, "duration": 1.93, "effect": 1},
+            {"start_frame": 58, "end_frame": 117, "duration": 1.97, "effect": 1},
+            {"start_frame": 117, "end_frame": 182, "duration": 2.17, "effect": 1},
+            {"start_frame": 182, "end_frame": 258, "duration": 2.53, "effect": 1},
+            {"start_frame": 258, "end_frame": 382, "duration": 4.13, "effect": 1},
+            {"start_frame": 382, "end_frame": 432, "duration": 1.67, "effect": 1},
+            {"start_frame": 432, "end_frame": 600, "duration": 5.6, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-3338_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 119, "duration": 3.97, "effect": 1},
+            {"start_frame": 119, "end_frame": 240, "duration": 4.03, "effect": 1},
+            {"start_frame": 240, "end_frame": 338, "duration": 3.27, "effect": 0},
+            {"start_frame": 338, "end_frame": 391, "duration": 1.77, "effect": 1},
+            {"start_frame": 391, "end_frame": 508, "duration": 3.9, "effect": 1},
+            {"start_frame": 508, "end_frame": 600, "duration": 3.07, "effect": 0},
+            {"start_frame": 0, "end_frame": 119, "duration": 3.97, "effect": 1},
+            {"start_frame": 119, "end_frame": 240, "duration": 4.03, "effect": 1},
+            {"start_frame": 240, "end_frame": 338, "duration": 3.27, "effect": 0},
+            {"start_frame": 338, "end_frame": 391, "duration": 1.77, "effect": 1},
+            {"start_frame": 391, "end_frame": 508, "duration": 3.9, "effect": 1},
+            {"start_frame": 508, "end_frame": 600, "duration": 3.07, "effect": 0}
+        ]
+    },
+    {
+        "filename": "VerticalVideo_720P-2efc_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "VerticalVideo_720P-6580_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 164, "duration": 5.47, "effect": 0},
+            {"start_frame": 164, "end_frame": 261, "duration": 3.23, "effect": 1},
+            {"start_frame": 261, "end_frame": 599, "duration": 11.27, "effect": 1},
+            {"start_frame": 0, "end_frame": 164, "duration": 5.47, "effect": 0},
+            {"start_frame": 164, "end_frame": 261, "duration": 3.23, "effect": 1},
+            {"start_frame": 261, "end_frame": 599, "duration": 11.27, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-6bb7_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 43, "duration": 1.43, "effect": 1},
+            {"start_frame": 43, "end_frame": 100, "duration": 1.9, "effect": 0},
+            {"start_frame": 100, "end_frame": 174, "duration": 2.47, "effect": 1},
+            {"start_frame": 174, "end_frame": 270, "duration": 3.2, "effect": 0},
+            {"start_frame": 270, "end_frame": 361, "duration": 3.03, "effect": 1},
+            {"start_frame": 361, "end_frame": 406, "duration": 1.5, "effect": 1},
+            {"start_frame": 406, "end_frame": 599, "duration": 6.43, "effect": 1},
+            {"start_frame": 0, "end_frame": 43, "duration": 1.43, "effect": 1},
+            {"start_frame": 43, "end_frame": 100, "duration": 1.9, "effect": 0},
+            {"start_frame": 100, "end_frame": 174, "duration": 2.47, "effect": 1},
+            {"start_frame": 174, "end_frame": 270, "duration": 3.2, "effect": 0},
+            {"start_frame": 270, "end_frame": 361, "duration": 3.03, "effect": 1},
+            {"start_frame": 361, "end_frame": 406, "duration": 1.5, "effect": 1},
+            {"start_frame": 406, "end_frame": 599, "duration": 6.43, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-003a_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 599, "duration": 19.97, "effect": 1},
+            {"start_frame": 0, "end_frame": 599, "duration": 19.97, "effect": 1}
+        ]
+    },
+    {
+        "filename": "LyricVideo_720P-2d24_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "CoverSong_720P-7360_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 134, "duration": 4.47, "effect": 1},
+            {"start_frame": 134, "end_frame": 181, "duration": 1.57, "effect": 0},
+            {"start_frame": 181, "end_frame": 272, "duration": 3.03, "effect": 0},
+            {"start_frame": 272, "end_frame": 351, "duration": 2.63, "effect": 1},
+            {"start_frame": 351, "end_frame": 489, "duration": 4.6, "effect": 1},
+            {"start_frame": 489, "end_frame": 600, "duration": 3.7, "effect": 0},
+            {"start_frame": 0, "end_frame": 134, "duration": 4.47, "effect": 1},
+            {"start_frame": 134, "end_frame": 181, "duration": 1.57, "effect": 0},
+            {"start_frame": 181, "end_frame": 272, "duration": 3.03, "effect": 0},
+            {"start_frame": 272, "end_frame": 351, "duration": 2.63, "effect": 1},
+            {"start_frame": 351, "end_frame": 489, "duration": 4.6, "effect": 1},
+            {"start_frame": 489, "end_frame": 600, "duration": 3.7, "effect": 0}
+        ]
+    },
+    {
+        "filename": "HowTo_720P-06eb_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 230, "duration": 7.67, "effect": 1},
+            {"start_frame": 230, "end_frame": 492, "duration": 8.73, "effect": 0},
+            {"start_frame": 492, "end_frame": 600, "duration": 3.6, "effect": 0},
+            {"start_frame": 0, "end_frame": 230, "duration": 7.67, "effect": 1},
+            {"start_frame": 230, "end_frame": 492, "duration": 8.73, "effect": 0},
+            {"start_frame": 492, "end_frame": 600, "duration": 3.6, "effect": 0}
+        ]
+    },
+    {
+        "filename": "NewsClip_720P-6106_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 68, "duration": 2.27, "effect": 1},
+            {"start_frame": 68, "end_frame": 114, "duration": 1.53, "effect": 0},
+            {"start_frame": 114, "end_frame": 175, "duration": 2.03, "effect": 0},
+            {"start_frame": 175, "end_frame": 230, "duration": 1.83, "effect": 1},
+            {"start_frame": 230, "end_frame": 309, "duration": 2.63, "effect": 0},
+            {"start_frame": 309, "end_frame": 369, "duration": 2.0, "effect": 0},
+            {"start_frame": 369, "end_frame": 447, "duration": 2.6, "effect": 0},
+            {"start_frame": 447, "end_frame": 495, "duration": 1.6, "effect": 0},
+            {"start_frame": 495, "end_frame": 559, "duration": 2.13, "effect": 1},
+            {"start_frame": 559, "end_frame": 599, "duration": 1.33, "effect": 1},
+            {"start_frame": 0, "end_frame": 68, "duration": 2.27, "effect": 1},
+            {"start_frame": 68, "end_frame": 114, "duration": 1.53, "effect": 0},
+            {"start_frame": 114, "end_frame": 175, "duration": 2.03, "effect": 0},
+            {"start_frame": 175, "end_frame": 230, "duration": 1.83, "effect": 1},
+            {"start_frame": 230, "end_frame": 309, "duration": 2.63, "effect": 0},
+            {"start_frame": 309, "end_frame": 369, "duration": 2.0, "effect": 0},
+            {"start_frame": 369, "end_frame": 447, "duration": 2.6, "effect": 0},
+            {"start_frame": 447, "end_frame": 495, "duration": 1.6, "effect": 0},
+            {"start_frame": 495, "end_frame": 559, "duration": 2.13, "effect": 1},
+            {"start_frame": 559, "end_frame": 599, "duration": 1.33, "effect": 1}
+        ]
+    },
+    {
+        "filename": "NewsClip_720P-739b_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "NewsClip_720P-35d9_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 97, "duration": 3.23, "effect": 0},
+            {"start_frame": 97, "end_frame": 207, "duration": 3.67, "effect": 0},
+            {"start_frame": 207, "end_frame": 437, "duration": 7.67, "effect": 0},
+            {"start_frame": 437, "end_frame": 599, "duration": 5.4, "effect": 0},
+            {"start_frame": 0, "end_frame": 97, "duration": 3.23, "effect": 0},
+            {"start_frame": 97, "end_frame": 207, "duration": 3.67, "effect": 0},
+            {"start_frame": 207, "end_frame": 437, "duration": 7.67, "effect": 0},
+            {"start_frame": 437, "end_frame": 599, "duration": 5.4, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-2f38_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 71, "duration": 2.37, "effect": 1},
+            {"start_frame": 71, "end_frame": 196, "duration": 4.17, "effect": 0},
+            {"start_frame": 196, "end_frame": 317, "duration": 4.03, "effect": 1},
+            {"start_frame": 317, "end_frame": 442, "duration": 4.17, "effect": 1},
+            {"start_frame": 442, "end_frame": 509, "duration": 2.23, "effect": 0},
+            {"start_frame": 509, "end_frame": 600, "duration": 3.03, "effect": 0},
+            {"start_frame": 0, "end_frame": 71, "duration": 2.37, "effect": 1},
+            {"start_frame": 71, "end_frame": 196, "duration": 4.17, "effect": 0},
+            {"start_frame": 196, "end_frame": 317, "duration": 4.03, "effect": 1},
+            {"start_frame": 317, "end_frame": 442, "duration": 4.17, "effect": 1},
+            {"start_frame": 442, "end_frame": 509, "duration": 2.23, "effect": 0},
+            {"start_frame": 509, "end_frame": 600, "duration": 3.03, "effect": 0}
+        ]
+    },
+    {
+        "filename": "LiveMusic_720P-71c5_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 71, "duration": 2.37, "effect": 1},
+            {"start_frame": 71, "end_frame": 167, "duration": 3.2, "effect": 1},
+            {"start_frame": 167, "end_frame": 215, "duration": 1.6, "effect": 1},
+            {"start_frame": 215, "end_frame": 279, "duration": 2.13, "effect": 1},
+            {"start_frame": 279, "end_frame": 357, "duration": 2.6, "effect": 1},
+            {"start_frame": 357, "end_frame": 411, "duration": 1.8, "effect": 1},
+            {"start_frame": 411, "end_frame": 471, "duration": 2.0, "effect": 1},
+            {"start_frame": 471, "end_frame": 599, "duration": 4.27, "effect": 0},
+            {"start_frame": 0, "end_frame": 71, "duration": 2.37, "effect": 1},
+            {"start_frame": 71, "end_frame": 167, "duration": 3.2, "effect": 1},
+            {"start_frame": 167, "end_frame": 215, "duration": 1.6, "effect": 1},
+            {"start_frame": 215, "end_frame": 279, "duration": 2.13, "effect": 1},
+            {"start_frame": 279, "end_frame": 357, "duration": 2.6, "effect": 1},
+            {"start_frame": 357, "end_frame": 411, "duration": 1.8, "effect": 1},
+            {"start_frame": 411, "end_frame": 471, "duration": 2.0, "effect": 1},
+            {"start_frame": 471, "end_frame": 599, "duration": 4.27, "effect": 0}
+        ]
+    },
+    {
+        "filename": "NewsClip_720P-6a19_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 88, "duration": 2.93, "effect": 0},
+            {"start_frame": 88, "end_frame": 164, "duration": 2.53, "effect": 0},
+            {"start_frame": 164, "end_frame": 234, "duration": 2.33, "effect": 0},
+            {"start_frame": 234, "end_frame": 298, "duration": 2.13, "effect": 1},
+            {"start_frame": 298, "end_frame": 362, "duration": 2.13, "effect": 0},
+            {"start_frame": 362, "end_frame": 437, "duration": 2.5, "effect": 1},
+            {"start_frame": 437, "end_frame": 536, "duration": 3.3, "effect": 1},
+            {"start_frame": 536, "end_frame": 600, "duration": 2.13, "effect": 1},
+            {"start_frame": 0, "end_frame": 88, "duration": 2.93, "effect": 0},
+            {"start_frame": 88, "end_frame": 164, "duration": 2.53, "effect": 0},
+            {"start_frame": 164, "end_frame": 234, "duration": 2.33, "effect": 0},
+            {"start_frame": 234, "end_frame": 298, "duration": 2.13, "effect": 1},
+            {"start_frame": 298, "end_frame": 362, "duration": 2.13, "effect": 0},
+            {"start_frame": 362, "end_frame": 437, "duration": 2.5, "effect": 1},
+            {"start_frame": 437, "end_frame": 536, "duration": 3.3, "effect": 1},
+            {"start_frame": 536, "end_frame": 600, "duration": 2.13, "effect": 1}
+        ]
+    },
+    {
+        "filename": "NewsClip_720P-6cde_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 60, "duration": 2.0, "effect": 1},
+            {"start_frame": 60, "end_frame": 120, "duration": 2.0, "effect": 1},
+            {"start_frame": 120, "end_frame": 199, "duration": 2.63, "effect": 0},
+            {"start_frame": 199, "end_frame": 276, "duration": 2.57, "effect": 1},
+            {"start_frame": 276, "end_frame": 386, "duration": 3.67, "effect": 1},
+            {"start_frame": 386, "end_frame": 469, "duration": 2.77, "effect": 1},
+            {"start_frame": 469, "end_frame": 524, "duration": 1.83, "effect": 1},
+            {"start_frame": 524, "end_frame": 599, "duration": 2.5, "effect": 0},
+            {"start_frame": 0, "end_frame": 60, "duration": 2.0, "effect": 1},
+            {"start_frame": 60, "end_frame": 120, "duration": 2.0, "effect": 1},
+            {"start_frame": 120, "end_frame": 199, "duration": 2.63, "effect": 0},
+            {"start_frame": 199, "end_frame": 276, "duration": 2.57, "effect": 1},
+            {"start_frame": 276, "end_frame": 386, "duration": 3.67, "effect": 1},
+            {"start_frame": 386, "end_frame": 469, "duration": 2.77, "effect": 1},
+            {"start_frame": 469, "end_frame": 524, "duration": 1.83, "effect": 1},
+            {"start_frame": 524, "end_frame": 599, "duration": 2.5, "effect": 0}
+        ]
+    },
+    {
+        "filename": "LiveMusic_720P-2620_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "LyricVideo_720P-36fb_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 193, "duration": 6.43, "effect": 1},
+            {"start_frame": 193, "end_frame": 373, "duration": 6.0, "effect": 0},
+            {"start_frame": 373, "end_frame": 487, "duration": 3.8, "effect": 1},
+            {"start_frame": 487, "end_frame": 600, "duration": 3.77, "effect": 0},
+            {"start_frame": 0, "end_frame": 193, "duration": 6.43, "effect": 1},
+            {"start_frame": 193, "end_frame": 373, "duration": 6.0, "effect": 0},
+            {"start_frame": 373, "end_frame": 487, "duration": 3.8, "effect": 1},
+            {"start_frame": 487, "end_frame": 600, "duration": 3.77, "effect": 0}
+        ]
+    },
+    {
+        "filename": "MusicVideo_720P-0752_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-50cf_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 261, "duration": 8.7, "effect": 1},
+            {"start_frame": 261, "end_frame": 600, "duration": 11.3, "effect": 1},
+            {"start_frame": 0, "end_frame": 261, "duration": 8.7, "effect": 1},
+            {"start_frame": 261, "end_frame": 600, "duration": 11.3, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Vlog_720P-033a_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 56, "duration": 1.87, "effect": 1},
+            {"start_frame": 56, "end_frame": 259, "duration": 6.77, "effect": 1},
+            {"start_frame": 259, "end_frame": 382, "duration": 4.1, "effect": 1},
+            {"start_frame": 382, "end_frame": 600, "duration": 7.27, "effect": 0},
+            {"start_frame": 0, "end_frame": 56, "duration": 1.87, "effect": 1},
+            {"start_frame": 56, "end_frame": 259, "duration": 6.77, "effect": 1},
+            {"start_frame": 259, "end_frame": 382, "duration": 4.1, "effect": 1},
+            {"start_frame": 382, "end_frame": 600, "duration": 7.27, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Gaming_720P-2dbe_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 0},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Gaming_720P-221d_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 66, "duration": 2.2, "effect": 1},
+            {"start_frame": 66, "end_frame": 200, "duration": 4.47, "effect": 1},
+            {"start_frame": 200, "end_frame": 290, "duration": 3.0, "effect": 1},
+            {"start_frame": 290, "end_frame": 335, "duration": 1.5, "effect": 1},
+            {"start_frame": 335, "end_frame": 452, "duration": 3.9, "effect": 0},
+            {"start_frame": 0, "end_frame": 66, "duration": 2.2, "effect": 1},
+            {"start_frame": 66, "end_frame": 200, "duration": 4.47, "effect": 1},
+            {"start_frame": 200, "end_frame": 290, "duration": 3.0, "effect": 1},
+            {"start_frame": 290, "end_frame": 335, "duration": 1.5, "effect": 1},
+            {"start_frame": 335, "end_frame": 452, "duration": 3.9, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-53a1_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 166, "duration": 5.53, "effect": 0},
+            {"start_frame": 166, "end_frame": 256, "duration": 3.0, "effect": 1},
+            {"start_frame": 256, "end_frame": 329, "duration": 2.43, "effect": 1},
+            {"start_frame": 329, "end_frame": 600, "duration": 9.03, "effect": 0},
+            {"start_frame": 0, "end_frame": 166, "duration": 5.53, "effect": 0},
+            {"start_frame": 166, "end_frame": 256, "duration": 3.0, "effect": 1},
+            {"start_frame": 256, "end_frame": 329, "duration": 2.43, "effect": 1},
+            {"start_frame": 329, "end_frame": 600, "duration": 9.03, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-5120_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 108, "duration": 3.6, "effect": 0},
+            {"start_frame": 108, "end_frame": 238, "duration": 4.33, "effect": 1},
+            {"start_frame": 238, "end_frame": 322, "duration": 2.8, "effect": 1},
+            {"start_frame": 322, "end_frame": 390, "duration": 2.27, "effect": 1},
+            {"start_frame": 390, "end_frame": 464, "duration": 2.47, "effect": 1},
+            {"start_frame": 464, "end_frame": 536, "duration": 2.4, "effect": 0},
+            {"start_frame": 536, "end_frame": 600, "duration": 2.13, "effect": 1},
+            {"start_frame": 0, "end_frame": 108, "duration": 3.6, "effect": 0},
+            {"start_frame": 108, "end_frame": 238, "duration": 4.33, "effect": 1},
+            {"start_frame": 238, "end_frame": 322, "duration": 2.8, "effect": 1},
+            {"start_frame": 322, "end_frame": 390, "duration": 2.27, "effect": 1},
+            {"start_frame": 390, "end_frame": 464, "duration": 2.47, "effect": 1},
+            {"start_frame": 464, "end_frame": 536, "duration": 2.4, "effect": 0},
+            {"start_frame": 536, "end_frame": 600, "duration": 2.13, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-62ba_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 287, "duration": 9.57, "effect": 1},
+            {"start_frame": 287, "end_frame": 405, "duration": 3.93, "effect": 1},
+            {"start_frame": 405, "end_frame": 600, "duration": 6.5, "effect": 1},
+            {"start_frame": 0, "end_frame": 287, "duration": 9.57, "effect": 1},
+            {"start_frame": 287, "end_frame": 405, "duration": 3.93, "effect": 1},
+            {"start_frame": 405, "end_frame": 600, "duration": 6.5, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Vlog_720P-0d79_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "CoverSong_720P-5ba2_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 43, "duration": 1.43, "effect": 0},
+            {"start_frame": 43, "end_frame": 96, "duration": 1.77, "effect": 1},
+            {"start_frame": 96, "end_frame": 157, "duration": 2.03, "effect": 1},
+            {"start_frame": 157, "end_frame": 236, "duration": 2.63, "effect": 1},
+            {"start_frame": 236, "end_frame": 310, "duration": 2.47, "effect": 1},
+            {"start_frame": 310, "end_frame": 347, "duration": 1.23, "effect": 0},
+            {"start_frame": 347, "end_frame": 411, "duration": 2.13, "effect": 1},
+            {"start_frame": 411, "end_frame": 487, "duration": 2.53, "effect": 0},
+            {"start_frame": 487, "end_frame": 570, "duration": 2.77, "effect": 1},
+            {"start_frame": 570, "end_frame": 600, "duration": 1.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 43, "duration": 1.43, "effect": 0},
+            {"start_frame": 43, "end_frame": 96, "duration": 1.77, "effect": 1},
+            {"start_frame": 96, "end_frame": 157, "duration": 2.03, "effect": 1},
+            {"start_frame": 157, "end_frame": 236, "duration": 2.63, "effect": 1},
+            {"start_frame": 236, "end_frame": 310, "duration": 2.47, "effect": 1},
+            {"start_frame": 310, "end_frame": 347, "duration": 1.23, "effect": 0},
+            {"start_frame": 347, "end_frame": 411, "duration": 2.13, "effect": 1},
+            {"start_frame": 411, "end_frame": 487, "duration": 2.53, "effect": 0},
+            {"start_frame": 487, "end_frame": 570, "duration": 2.77, "effect": 1},
+            {"start_frame": 570, "end_frame": 600, "duration": 1.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "NewsClip_720P-2182_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 0},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 0}
+        ]
+    },
+    {
+        "filename": "HowTo_720P-479b_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 120, "duration": 4.0, "effect": 0},
+            {"start_frame": 120, "end_frame": 600, "duration": 16.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 120, "duration": 4.0, "effect": 0},
+            {"start_frame": 120, "end_frame": 600, "duration": 16.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "VR_720P-448a_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 94, "duration": 3.13, "effect": 0},
+            {"start_frame": 94, "end_frame": 173, "duration": 2.63, "effect": 0},
+            {"start_frame": 173, "end_frame": 257, "duration": 2.8, "effect": 1},
+            {"start_frame": 257, "end_frame": 357, "duration": 3.33, "effect": 0},
+            {"start_frame": 357, "end_frame": 410, "duration": 1.77, "effect": 1},
+            {"start_frame": 410, "end_frame": 473, "duration": 2.1, "effect": 1},
+            {"start_frame": 473, "end_frame": 529, "duration": 1.87, "effect": 1},
+            {"start_frame": 0, "end_frame": 94, "duration": 3.13, "effect": 0},
+            {"start_frame": 94, "end_frame": 173, "duration": 2.63, "effect": 0},
+            {"start_frame": 173, "end_frame": 257, "duration": 2.8, "effect": 1},
+            {"start_frame": 257, "end_frame": 357, "duration": 3.33, "effect": 0},
+            {"start_frame": 357, "end_frame": 410, "duration": 1.77, "effect": 1},
+            {"start_frame": 410, "end_frame": 473, "duration": 2.1, "effect": 1},
+            {"start_frame": 473, "end_frame": 529, "duration": 1.87, "effect": 1}
+        ]
+    },
+    {
+        "filename": "NewsClip_720P-579b_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 126, "duration": 4.2, "effect": 1},
+            {"start_frame": 126, "end_frame": 600, "duration": 15.8, "effect": 0},
+            {"start_frame": 0, "end_frame": 126, "duration": 4.2, "effect": 1},
+            {"start_frame": 126, "end_frame": 600, "duration": 15.8, "effect": 0}
+        ]
+    },
+    {
+        "filename": "LiveMusic_720P-6452_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 69, "duration": 2.3, "effect": 0},
+            {"start_frame": 69, "end_frame": 143, "duration": 2.47, "effect": 0},
+            {"start_frame": 143, "end_frame": 225, "duration": 2.73, "effect": 1},
+            {"start_frame": 225, "end_frame": 271, "duration": 1.53, "effect": 0},
+            {"start_frame": 271, "end_frame": 314, "duration": 1.43, "effect": 1},
+            {"start_frame": 314, "end_frame": 355, "duration": 1.37, "effect": 1},
+            {"start_frame": 355, "end_frame": 411, "duration": 1.87, "effect": 1},
+            {"start_frame": 411, "end_frame": 490, "duration": 2.63, "effect": 1},
+            {"start_frame": 490, "end_frame": 530, "duration": 1.33, "effect": 1},
+            {"start_frame": 530, "end_frame": 600, "duration": 2.33, "effect": 0},
+            {"start_frame": 0, "end_frame": 69, "duration": 2.3, "effect": 0},
+            {"start_frame": 69, "end_frame": 143, "duration": 2.47, "effect": 0},
+            {"start_frame": 143, "end_frame": 225, "duration": 2.73, "effect": 1},
+            {"start_frame": 225, "end_frame": 271, "duration": 1.53, "effect": 0},
+            {"start_frame": 271, "end_frame": 314, "duration": 1.43, "effect": 1},
+            {"start_frame": 314, "end_frame": 355, "duration": 1.37, "effect": 1},
+            {"start_frame": 355, "end_frame": 411, "duration": 1.87, "effect": 1},
+            {"start_frame": 411, "end_frame": 490, "duration": 2.63, "effect": 1},
+            {"start_frame": 490, "end_frame": 530, "duration": 1.33, "effect": 1},
+            {"start_frame": 530, "end_frame": 600, "duration": 2.33, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Gaming_720P-25aa_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 98, "duration": 3.27, "effect": 0},
+            {"start_frame": 98, "end_frame": 159, "duration": 2.03, "effect": 0},
+            {"start_frame": 159, "end_frame": 242, "duration": 2.77, "effect": 1},
+            {"start_frame": 242, "end_frame": 303, "duration": 2.03, "effect": 1},
+            {"start_frame": 303, "end_frame": 396, "duration": 3.1, "effect": 1},
+            {"start_frame": 396, "end_frame": 600, "duration": 6.8, "effect": 0},
+            {"start_frame": 0, "end_frame": 98, "duration": 3.27, "effect": 0},
+            {"start_frame": 98, "end_frame": 159, "duration": 2.03, "effect": 0},
+            {"start_frame": 159, "end_frame": 242, "duration": 2.77, "effect": 1},
+            {"start_frame": 242, "end_frame": 303, "duration": 2.03, "effect": 1},
+            {"start_frame": 303, "end_frame": 396, "duration": 3.1, "effect": 1},
+            {"start_frame": 396, "end_frame": 600, "duration": 6.8, "effect": 0}
+        ]
+    },
+    {
+        "filename": "LiveMusic_720P-3320_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 53, "duration": 1.77, "effect": 1},
+            {"start_frame": 53, "end_frame": 142, "duration": 2.97, "effect": 0},
+            {"start_frame": 142, "end_frame": 250, "duration": 3.6, "effect": 0},
+            {"start_frame": 250, "end_frame": 297, "duration": 1.57, "effect": 0},
+            {"start_frame": 297, "end_frame": 340, "duration": 1.43, "effect": 0},
+            {"start_frame": 340, "end_frame": 433, "duration": 3.1, "effect": 1},
+            {"start_frame": 433, "end_frame": 494, "duration": 2.03, "effect": 0},
+            {"start_frame": 494, "end_frame": 600, "duration": 3.53, "effect": 1},
+            {"start_frame": 0, "end_frame": 53, "duration": 1.77, "effect": 1},
+            {"start_frame": 53, "end_frame": 142, "duration": 2.97, "effect": 0},
+            {"start_frame": 142, "end_frame": 250, "duration": 3.6, "effect": 0},
+            {"start_frame": 250, "end_frame": 297, "duration": 1.57, "effect": 0},
+            {"start_frame": 297, "end_frame": 340, "duration": 1.43, "effect": 0},
+            {"start_frame": 340, "end_frame": 433, "duration": 3.1, "effect": 1},
+            {"start_frame": 433, "end_frame": 494, "duration": 2.03, "effect": 0},
+            {"start_frame": 494, "end_frame": 600, "duration": 3.53, "effect": 1}
+        ]
+    },
+    {
+        "filename": "LyricVideo_720P-6fc9_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 79, "duration": 2.63, "effect": 1},
+            {"start_frame": 79, "end_frame": 128, "duration": 1.63, "effect": 1},
+            {"start_frame": 128, "end_frame": 182, "duration": 1.8, "effect": 0},
+            {"start_frame": 182, "end_frame": 257, "duration": 2.5, "effect": 1},
+            {"start_frame": 257, "end_frame": 307, "duration": 1.67, "effect": 1},
+            {"start_frame": 307, "end_frame": 380, "duration": 2.43, "effect": 1},
+            {"start_frame": 380, "end_frame": 435, "duration": 1.83, "effect": 0},
+            {"start_frame": 435, "end_frame": 477, "duration": 1.4, "effect": 1},
+            {"start_frame": 477, "end_frame": 549, "duration": 2.4, "effect": 1},
+            {"start_frame": 549, "end_frame": 599, "duration": 1.67, "effect": 1},
+            {"start_frame": 0, "end_frame": 79, "duration": 2.63, "effect": 1},
+            {"start_frame": 79, "end_frame": 128, "duration": 1.63, "effect": 1},
+            {"start_frame": 128, "end_frame": 182, "duration": 1.8, "effect": 0},
+            {"start_frame": 182, "end_frame": 257, "duration": 2.5, "effect": 1},
+            {"start_frame": 257, "end_frame": 307, "duration": 1.67, "effect": 1},
+            {"start_frame": 307, "end_frame": 380, "duration": 2.43, "effect": 1},
+            {"start_frame": 380, "end_frame": 435, "duration": 1.83, "effect": 0},
+            {"start_frame": 435, "end_frame": 477, "duration": 1.4, "effect": 1},
+            {"start_frame": 477, "end_frame": 549, "duration": 2.4, "effect": 1},
+            {"start_frame": 549, "end_frame": 599, "duration": 1.67, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Animation_720P-06a6_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 60, "duration": 2.0, "effect": 1},
+            {"start_frame": 60, "end_frame": 122, "duration": 2.07, "effect": 1},
+            {"start_frame": 122, "end_frame": 190, "duration": 2.27, "effect": 0},
+            {"start_frame": 190, "end_frame": 242, "duration": 1.73, "effect": 1},
+            {"start_frame": 242, "end_frame": 318, "duration": 2.53, "effect": 1},
+            {"start_frame": 318, "end_frame": 400, "duration": 2.73, "effect": 0},
+            {"start_frame": 400, "end_frame": 442, "duration": 1.4, "effect": 1},
+            {"start_frame": 442, "end_frame": 484, "duration": 1.4, "effect": 1},
+            {"start_frame": 484, "end_frame": 600, "duration": 3.87, "effect": 1},
+            {"start_frame": 0, "end_frame": 60, "duration": 2.0, "effect": 1},
+            {"start_frame": 60, "end_frame": 122, "duration": 2.07, "effect": 1},
+            {"start_frame": 122, "end_frame": 190, "duration": 2.27, "effect": 0},
+            {"start_frame": 190, "end_frame": 242, "duration": 1.73, "effect": 1},
+            {"start_frame": 242, "end_frame": 318, "duration": 2.53, "effect": 1},
+            {"start_frame": 318, "end_frame": 400, "duration": 2.73, "effect": 0},
+            {"start_frame": 400, "end_frame": 442, "duration": 1.4, "effect": 1},
+            {"start_frame": 442, "end_frame": 484, "duration": 1.4, "effect": 1},
+            {"start_frame": 484, "end_frame": 600, "duration": 3.87, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-3b7f_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 57, "duration": 1.9, "effect": 1},
+            {"start_frame": 57, "end_frame": 101, "duration": 1.47, "effect": 0},
+            {"start_frame": 101, "end_frame": 162, "duration": 2.03, "effect": 1},
+            {"start_frame": 162, "end_frame": 249, "duration": 2.9, "effect": 1},
+            {"start_frame": 249, "end_frame": 314, "duration": 2.17, "effect": 0},
+            {"start_frame": 314, "end_frame": 402, "duration": 2.93, "effect": 1},
+            {"start_frame": 402, "end_frame": 496, "duration": 3.13, "effect": 1},
+            {"start_frame": 496, "end_frame": 548, "duration": 1.73, "effect": 1},
+            {"start_frame": 548, "end_frame": 600, "duration": 1.73, "effect": 0},
+            {"start_frame": 0, "end_frame": 57, "duration": 1.9, "effect": 1},
+            {"start_frame": 57, "end_frame": 101, "duration": 1.47, "effect": 0},
+            {"start_frame": 101, "end_frame": 162, "duration": 2.03, "effect": 1},
+            {"start_frame": 162, "end_frame": 249, "duration": 2.9, "effect": 1},
+            {"start_frame": 249, "end_frame": 314, "duration": 2.17, "effect": 0},
+            {"start_frame": 314, "end_frame": 402, "duration": 2.93, "effect": 1},
+            {"start_frame": 402, "end_frame": 496, "duration": 3.13, "effect": 1},
+            {"start_frame": 496, "end_frame": 548, "duration": 1.73, "effect": 1},
+            {"start_frame": 548, "end_frame": 600, "duration": 1.73, "effect": 0}
+        ]
+    },
+    {
+        "filename": "TelevisionClip_720P-44d1_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 118, "duration": 3.93, "effect": 0},
+            {"start_frame": 118, "end_frame": 261, "duration": 4.77, "effect": 0},
+            {"start_frame": 261, "end_frame": 394, "duration": 4.43, "effect": 0},
+            {"start_frame": 394, "end_frame": 502, "duration": 3.6, "effect": 1},
+            {"start_frame": 502, "end_frame": 600, "duration": 3.27, "effect": 1},
+            {"start_frame": 0, "end_frame": 118, "duration": 3.93, "effect": 0},
+            {"start_frame": 118, "end_frame": 261, "duration": 4.77, "effect": 0},
+            {"start_frame": 261, "end_frame": 394, "duration": 4.43, "effect": 0},
+            {"start_frame": 394, "end_frame": 502, "duration": 3.6, "effect": 1},
+            {"start_frame": 502, "end_frame": 600, "duration": 3.27, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Animation_720P-6372_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 117, "duration": 3.9, "effect": 0},
+            {"start_frame": 117, "end_frame": 205, "duration": 2.93, "effect": 1},
+            {"start_frame": 205, "end_frame": 375, "duration": 5.67, "effect": 0},
+            {"start_frame": 375, "end_frame": 499, "duration": 4.13, "effect": 0},
+            {"start_frame": 499, "end_frame": 600, "duration": 3.37, "effect": 0},
+            {"start_frame": 0, "end_frame": 117, "duration": 3.9, "effect": 0},
+            {"start_frame": 117, "end_frame": 205, "duration": 2.93, "effect": 1},
+            {"start_frame": 205, "end_frame": 375, "duration": 5.67, "effect": 0},
+            {"start_frame": 375, "end_frame": 499, "duration": 4.13, "effect": 0},
+            {"start_frame": 499, "end_frame": 600, "duration": 3.37, "effect": 0}
+        ]
+    },
+    {
+        "filename": "MusicVideo_720P-3c4c_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 54, "duration": 1.8, "effect": 1},
+            {"start_frame": 54, "end_frame": 102, "duration": 1.6, "effect": 0},
+            {"start_frame": 102, "end_frame": 152, "duration": 1.67, "effect": 1},
+            {"start_frame": 152, "end_frame": 196, "duration": 1.47, "effect": 1},
+            {"start_frame": 196, "end_frame": 241, "duration": 1.5, "effect": 0},
+            {"start_frame": 241, "end_frame": 293, "duration": 1.73, "effect": 1},
+            {"start_frame": 293, "end_frame": 356, "duration": 2.1, "effect": 0},
+            {"start_frame": 356, "end_frame": 392, "duration": 1.2, "effect": 1},
+            {"start_frame": 392, "end_frame": 431, "duration": 1.3, "effect": 1},
+            {"start_frame": 431, "end_frame": 599, "duration": 5.6, "effect": 1},
+            {"start_frame": 0, "end_frame": 54, "duration": 1.8, "effect": 1},
+            {"start_frame": 54, "end_frame": 102, "duration": 1.6, "effect": 0},
+            {"start_frame": 102, "end_frame": 152, "duration": 1.67, "effect": 1},
+            {"start_frame": 152, "end_frame": 196, "duration": 1.47, "effect": 1},
+            {"start_frame": 196, "end_frame": 241, "duration": 1.5, "effect": 0},
+            {"start_frame": 241, "end_frame": 293, "duration": 1.73, "effect": 1},
+            {"start_frame": 293, "end_frame": 356, "duration": 2.1, "effect": 0},
+            {"start_frame": 356, "end_frame": 392, "duration": 1.2, "effect": 1},
+            {"start_frame": 392, "end_frame": 431, "duration": 1.3, "effect": 1},
+            {"start_frame": 431, "end_frame": 599, "duration": 5.6, "effect": 1}
+        ]
+    },
+    {
+        "filename": "VerticalVideo_720P-4ca7_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 147, "duration": 4.9, "effect": 1},
+            {"start_frame": 147, "end_frame": 408, "duration": 8.7, "effect": 0},
+            {"start_frame": 408, "end_frame": 600, "duration": 6.4, "effect": 1},
+            {"start_frame": 0, "end_frame": 147, "duration": 4.9, "effect": 1},
+            {"start_frame": 147, "end_frame": 408, "duration": 8.7, "effect": 0},
+            {"start_frame": 408, "end_frame": 600, "duration": 6.4, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-33c6_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 63, "duration": 2.1, "effect": 0},
+            {"start_frame": 63, "end_frame": 106, "duration": 1.43, "effect": 1},
+            {"start_frame": 106, "end_frame": 149, "duration": 1.43, "effect": 0},
+            {"start_frame": 149, "end_frame": 218, "duration": 2.3, "effect": 1},
+            {"start_frame": 218, "end_frame": 284, "duration": 2.2, "effect": 1},
+            {"start_frame": 284, "end_frame": 345, "duration": 2.03, "effect": 1},
+            {"start_frame": 345, "end_frame": 397, "duration": 1.73, "effect": 0},
+            {"start_frame": 397, "end_frame": 444, "duration": 1.57, "effect": 1},
+            {"start_frame": 444, "end_frame": 522, "duration": 2.6, "effect": 0},
+            {"start_frame": 522, "end_frame": 599, "duration": 2.57, "effect": 0},
+            {"start_frame": 0, "end_frame": 63, "duration": 2.1, "effect": 0},
+            {"start_frame": 63, "end_frame": 106, "duration": 1.43, "effect": 1},
+            {"start_frame": 106, "end_frame": 149, "duration": 1.43, "effect": 0},
+            {"start_frame": 149, "end_frame": 218, "duration": 2.3, "effect": 1},
+            {"start_frame": 218, "end_frame": 284, "duration": 2.2, "effect": 1},
+            {"start_frame": 284, "end_frame": 345, "duration": 2.03, "effect": 1},
+            {"start_frame": 345, "end_frame": 397, "duration": 1.73, "effect": 0},
+            {"start_frame": 397, "end_frame": 444, "duration": 1.57, "effect": 1},
+            {"start_frame": 444, "end_frame": 522, "duration": 2.6, "effect": 0},
+            {"start_frame": 522, "end_frame": 599, "duration": 2.57, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Gaming_720P-40b2_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 54, "duration": 1.8, "effect": 0},
+            {"start_frame": 54, "end_frame": 143, "duration": 2.97, "effect": 0},
+            {"start_frame": 143, "end_frame": 200, "duration": 1.9, "effect": 0},
+            {"start_frame": 200, "end_frame": 259, "duration": 1.97, "effect": 1},
+            {"start_frame": 259, "end_frame": 325, "duration": 2.2, "effect": 1},
+            {"start_frame": 325, "end_frame": 386, "duration": 2.03, "effect": 0},
+            {"start_frame": 386, "end_frame": 464, "duration": 2.6, "effect": 1},
+            {"start_frame": 464, "end_frame": 513, "duration": 1.63, "effect": 0},
+            {"start_frame": 513, "end_frame": 600, "duration": 2.9, "effect": 1},
+            {"start_frame": 0, "end_frame": 54, "duration": 1.8, "effect": 0},
+            {"start_frame": 54, "end_frame": 143, "duration": 2.97, "effect": 0},
+            {"start_frame": 143, "end_frame": 200, "duration": 1.9, "effect": 0},
+            {"start_frame": 200, "end_frame": 259, "duration": 1.97, "effect": 1},
+            {"start_frame": 259, "end_frame": 325, "duration": 2.2, "effect": 1},
+            {"start_frame": 325, "end_frame": 386, "duration": 2.03, "effect": 0},
+            {"start_frame": 386, "end_frame": 464, "duration": 2.6, "effect": 1},
+            {"start_frame": 464, "end_frame": 513, "duration": 1.63, "effect": 0},
+            {"start_frame": 513, "end_frame": 600, "duration": 2.9, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-058f_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 103, "duration": 3.43, "effect": 0},
+            {"start_frame": 103, "end_frame": 168, "duration": 2.17, "effect": 1},
+            {"start_frame": 168, "end_frame": 234, "duration": 2.2, "effect": 0},
+            {"start_frame": 234, "end_frame": 330, "duration": 3.2, "effect": 1},
+            {"start_frame": 330, "end_frame": 439, "duration": 3.63, "effect": 1},
+            {"start_frame": 439, "end_frame": 537, "duration": 3.27, "effect": 0},
+            {"start_frame": 537, "end_frame": 600, "duration": 2.1, "effect": 1},
+            {"start_frame": 0, "end_frame": 103, "duration": 3.43, "effect": 0},
+            {"start_frame": 103, "end_frame": 168, "duration": 2.17, "effect": 1},
+            {"start_frame": 168, "end_frame": 234, "duration": 2.2, "effect": 0},
+            {"start_frame": 234, "end_frame": 330, "duration": 3.2, "effect": 1},
+            {"start_frame": 330, "end_frame": 439, "duration": 3.63, "effect": 1},
+            {"start_frame": 439, "end_frame": 537, "duration": 3.27, "effect": 0},
+            {"start_frame": 537, "end_frame": 600, "duration": 2.1, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-5ea4_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 68, "duration": 2.27, "effect": 1},
+            {"start_frame": 68, "end_frame": 137, "duration": 2.3, "effect": 0},
+            {"start_frame": 137, "end_frame": 205, "duration": 2.27, "effect": 0},
+            {"start_frame": 205, "end_frame": 294, "duration": 2.97, "effect": 1},
+            {"start_frame": 294, "end_frame": 368, "duration": 2.47, "effect": 0},
+            {"start_frame": 368, "end_frame": 445, "duration": 2.57, "effect": 1},
+            {"start_frame": 445, "end_frame": 493, "duration": 1.6, "effect": 1},
+            {"start_frame": 493, "end_frame": 562, "duration": 2.3, "effect": 1},
+            {"start_frame": 562, "end_frame": 600, "duration": 1.27, "effect": 1},
+            {"start_frame": 0, "end_frame": 68, "duration": 2.27, "effect": 1},
+            {"start_frame": 68, "end_frame": 137, "duration": 2.3, "effect": 0},
+            {"start_frame": 137, "end_frame": 205, "duration": 2.27, "effect": 0},
+            {"start_frame": 205, "end_frame": 294, "duration": 2.97, "effect": 1},
+            {"start_frame": 294, "end_frame": 368, "duration": 2.47, "effect": 0},
+            {"start_frame": 368, "end_frame": 445, "duration": 2.57, "effect": 1},
+            {"start_frame": 445, "end_frame": 493, "duration": 1.6, "effect": 1},
+            {"start_frame": 493, "end_frame": 562, "duration": 2.3, "effect": 1},
+            {"start_frame": 562, "end_frame": 600, "duration": 1.27, "effect": 1}
+        ]
+    },
+    {
+        "filename": "NewsClip_720P-0c81_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 76, "duration": 2.53, "effect": 1},
+            {"start_frame": 76, "end_frame": 134, "duration": 1.93, "effect": 0},
+            {"start_frame": 134, "end_frame": 204, "duration": 2.33, "effect": 0},
+            {"start_frame": 204, "end_frame": 248, "duration": 1.47, "effect": 0},
+            {"start_frame": 248, "end_frame": 324, "duration": 2.53, "effect": 0},
+            {"start_frame": 324, "end_frame": 382, "duration": 1.93, "effect": 1},
+            {"start_frame": 382, "end_frame": 425, "duration": 1.43, "effect": 1},
+            {"start_frame": 425, "end_frame": 478, "duration": 1.77, "effect": 1},
+            {"start_frame": 478, "end_frame": 535, "duration": 1.9, "effect": 1},
+            {"start_frame": 535, "end_frame": 599, "duration": 2.13, "effect": 0},
+            {"start_frame": 0, "end_frame": 76, "duration": 2.53, "effect": 1},
+            {"start_frame": 76, "end_frame": 134, "duration": 1.93, "effect": 0},
+            {"start_frame": 134, "end_frame": 204, "duration": 2.33, "effect": 0},
+            {"start_frame": 204, "end_frame": 248, "duration": 1.47, "effect": 0},
+            {"start_frame": 248, "end_frame": 324, "duration": 2.53, "effect": 0},
+            {"start_frame": 324, "end_frame": 382, "duration": 1.93, "effect": 1},
+            {"start_frame": 382, "end_frame": 425, "duration": 1.43, "effect": 1},
+            {"start_frame": 425, "end_frame": 478, "duration": 1.77, "effect": 1},
+            {"start_frame": 478, "end_frame": 535, "duration": 1.9, "effect": 1},
+            {"start_frame": 535, "end_frame": 599, "duration": 2.13, "effect": 0}
+        ]
+    },
+    {
+        "filename": "HowTo_720P-12f7_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 88, "duration": 2.93, "effect": 1},
+            {"start_frame": 88, "end_frame": 140, "duration": 1.73, "effect": 1},
+            {"start_frame": 140, "end_frame": 219, "duration": 2.63, "effect": 0},
+            {"start_frame": 219, "end_frame": 260, "duration": 1.37, "effect": 1},
+            {"start_frame": 260, "end_frame": 301, "duration": 1.37, "effect": 1},
+            {"start_frame": 301, "end_frame": 368, "duration": 2.23, "effect": 1},
+            {"start_frame": 368, "end_frame": 423, "duration": 1.83, "effect": 1},
+            {"start_frame": 423, "end_frame": 600, "duration": 5.9, "effect": 1},
+            {"start_frame": 0, "end_frame": 88, "duration": 2.93, "effect": 1},
+            {"start_frame": 88, "end_frame": 140, "duration": 1.73, "effect": 1},
+            {"start_frame": 140, "end_frame": 219, "duration": 2.63, "effect": 0},
+            {"start_frame": 219, "end_frame": 260, "duration": 1.37, "effect": 1},
+            {"start_frame": 260, "end_frame": 301, "duration": 1.37, "effect": 1},
+            {"start_frame": 301, "end_frame": 368, "duration": 2.23, "effect": 1},
+            {"start_frame": 368, "end_frame": 423, "duration": 1.83, "effect": 1},
+            {"start_frame": 423, "end_frame": 600, "duration": 5.9, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Vlog_720P-5364_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 74, "duration": 2.47, "effect": 1},
+            {"start_frame": 74, "end_frame": 156, "duration": 2.73, "effect": 0},
+            {"start_frame": 156, "end_frame": 210, "duration": 1.8, "effect": 1},
+            {"start_frame": 210, "end_frame": 269, "duration": 1.97, "effect": 1},
+            {"start_frame": 269, "end_frame": 340, "duration": 2.37, "effect": 1},
+            {"start_frame": 340, "end_frame": 408, "duration": 2.27, "effect": 0},
+            {"start_frame": 408, "end_frame": 477, "duration": 2.3, "effect": 0},
+            {"start_frame": 477, "end_frame": 527, "duration": 1.67, "effect": 1},
+            {"start_frame": 527, "end_frame": 600, "duration": 2.43, "effect": 0},
+            {"start_frame": 0, "end_frame": 74, "duration": 2.47, "effect": 1},
+            {"start_frame": 74, "end_frame": 156, "duration": 2.73, "effect": 0},
+            {"start_frame": 156, "end_frame": 210, "duration": 1.8, "effect": 1},
+            {"start_frame": 210, "end_frame": 269, "duration": 1.97, "effect": 1},
+            {"start_frame": 269, "end_frame": 340, "duration": 2.37, "effect": 1},
+            {"start_frame": 340, "end_frame": 408, "duration": 2.27, "effect": 0},
+            {"start_frame": 408, "end_frame": 477, "duration": 2.3, "effect": 0},
+            {"start_frame": 477, "end_frame": 527, "duration": 1.67, "effect": 1},
+            {"start_frame": 527, "end_frame": 600, "duration": 2.43, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Animation_720P-2525_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 109, "duration": 3.63, "effect": 1},
+            {"start_frame": 109, "end_frame": 277, "duration": 5.6, "effect": 0},
+            {"start_frame": 277, "end_frame": 357, "duration": 2.67, "effect": 1},
+            {"start_frame": 357, "end_frame": 510, "duration": 5.1, "effect": 1},
+            {"start_frame": 510, "end_frame": 600, "duration": 3.0, "effect": 0},
+            {"start_frame": 0, "end_frame": 109, "duration": 3.63, "effect": 1},
+            {"start_frame": 109, "end_frame": 277, "duration": 5.6, "effect": 0},
+            {"start_frame": 277, "end_frame": 357, "duration": 2.67, "effect": 1},
+            {"start_frame": 357, "end_frame": 510, "duration": 5.1, "effect": 1},
+            {"start_frame": 510, "end_frame": 600, "duration": 3.0, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Animation_720P-13b7_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 81, "duration": 2.7, "effect": 1},
+            {"start_frame": 81, "end_frame": 146, "duration": 2.17, "effect": 0},
+            {"start_frame": 146, "end_frame": 190, "duration": 1.47, "effect": 0},
+            {"start_frame": 190, "end_frame": 293, "duration": 3.43, "effect": 1},
+            {"start_frame": 293, "end_frame": 338, "duration": 1.5, "effect": 1},
+            {"start_frame": 338, "end_frame": 411, "duration": 2.43, "effect": 0},
+            {"start_frame": 411, "end_frame": 599, "duration": 6.27, "effect": 0},
+            {"start_frame": 0, "end_frame": 81, "duration": 2.7, "effect": 1},
+            {"start_frame": 81, "end_frame": 146, "duration": 2.17, "effect": 0},
+            {"start_frame": 146, "end_frame": 190, "duration": 1.47, "effect": 0},
+            {"start_frame": 190, "end_frame": 293, "duration": 3.43, "effect": 1},
+            {"start_frame": 293, "end_frame": 338, "duration": 1.5, "effect": 1},
+            {"start_frame": 338, "end_frame": 411, "duration": 2.43, "effect": 0},
+            {"start_frame": 411, "end_frame": 599, "duration": 6.27, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Gaming_720P-103a_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 94, "duration": 3.13, "effect": 0},
+            {"start_frame": 94, "end_frame": 199, "duration": 3.5, "effect": 0},
+            {"start_frame": 199, "end_frame": 283, "duration": 2.8, "effect": 1},
+            {"start_frame": 283, "end_frame": 599, "duration": 10.53, "effect": 1},
+            {"start_frame": 0, "end_frame": 94, "duration": 3.13, "effect": 0},
+            {"start_frame": 94, "end_frame": 199, "duration": 3.5, "effect": 0},
+            {"start_frame": 199, "end_frame": 283, "duration": 2.8, "effect": 1},
+            {"start_frame": 283, "end_frame": 599, "duration": 10.53, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-07e0_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 77, "duration": 2.57, "effect": 1},
+            {"start_frame": 77, "end_frame": 261, "duration": 6.13, "effect": 0},
+            {"start_frame": 261, "end_frame": 396, "duration": 4.5, "effect": 1},
+            {"start_frame": 396, "end_frame": 600, "duration": 6.8, "effect": 1},
+            {"start_frame": 0, "end_frame": 77, "duration": 2.57, "effect": 1},
+            {"start_frame": 77, "end_frame": 261, "duration": 6.13, "effect": 0},
+            {"start_frame": 261, "end_frame": 396, "duration": 4.5, "effect": 1},
+            {"start_frame": 396, "end_frame": 600, "duration": 6.8, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Vlog_720P-03f9_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 599, "duration": 19.97, "effect": 1},
+            {"start_frame": 0, "end_frame": 599, "duration": 19.97, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Vlog_720P-3e9c_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 195, "duration": 6.5, "effect": 1},
+            {"start_frame": 195, "end_frame": 599, "duration": 13.47, "effect": 1},
+            {"start_frame": 0, "end_frame": 195, "duration": 6.5, "effect": 1},
+            {"start_frame": 195, "end_frame": 599, "duration": 13.47, "effect": 1}
+        ]
+    },
+    {
+        "filename": "MusicVideo_720P-62df_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 88, "duration": 2.93, "effect": 1},
+            {"start_frame": 88, "end_frame": 266, "duration": 5.93, "effect": 1},
+            {"start_frame": 266, "end_frame": 393, "duration": 4.23, "effect": 1},
+            {"start_frame": 393, "end_frame": 599, "duration": 6.87, "effect": 0},
+            {"start_frame": 0, "end_frame": 88, "duration": 2.93, "effect": 1},
+            {"start_frame": 88, "end_frame": 266, "duration": 5.93, "effect": 1},
+            {"start_frame": 266, "end_frame": 393, "duration": 4.23, "effect": 1},
+            {"start_frame": 393, "end_frame": 599, "duration": 6.87, "effect": 0}
+        ]
+    },
+    {
+        "filename": "TelevisionClip_720P-19de_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 67, "duration": 2.23, "effect": 1},
+            {"start_frame": 67, "end_frame": 121, "duration": 1.8, "effect": 0},
+            {"start_frame": 121, "end_frame": 185, "duration": 2.13, "effect": 1},
+            {"start_frame": 185, "end_frame": 252, "duration": 2.23, "effect": 0},
+            {"start_frame": 252, "end_frame": 329, "duration": 2.57, "effect": 0},
+            {"start_frame": 329, "end_frame": 375, "duration": 1.53, "effect": 1},
+            {"start_frame": 375, "end_frame": 438, "duration": 2.1, "effect": 0},
+            {"start_frame": 438, "end_frame": 522, "duration": 2.8, "effect": 1},
+            {"start_frame": 522, "end_frame": 600, "duration": 2.6, "effect": 0},
+            {"start_frame": 0, "end_frame": 67, "duration": 2.23, "effect": 1},
+            {"start_frame": 67, "end_frame": 121, "duration": 1.8, "effect": 0},
+            {"start_frame": 121, "end_frame": 185, "duration": 2.13, "effect": 1},
+            {"start_frame": 185, "end_frame": 252, "duration": 2.23, "effect": 0},
+            {"start_frame": 252, "end_frame": 329, "duration": 2.57, "effect": 0},
+            {"start_frame": 329, "end_frame": 375, "duration": 1.53, "effect": 1},
+            {"start_frame": 375, "end_frame": 438, "duration": 2.1, "effect": 0},
+            {"start_frame": 438, "end_frame": 522, "duration": 2.8, "effect": 1},
+            {"start_frame": 522, "end_frame": 600, "duration": 2.6, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-2b0f_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 30, "duration": 1.0, "effect": 0},
+            {"start_frame": 30, "end_frame": 60, "duration": 1.0, "effect": 1},
+            {"start_frame": 60, "end_frame": 90, "duration": 1.0, "effect": 1},
+            {"start_frame": 90, "end_frame": 120, "duration": 1.0, "effect": 1},
+            {"start_frame": 120, "end_frame": 150, "duration": 1.0, "effect": 1},
+            {"start_frame": 150, "end_frame": 180, "duration": 1.0, "effect": 1},
+            {"start_frame": 180, "end_frame": 210, "duration": 1.0, "effect": 1},
+            {"start_frame": 210, "end_frame": 241, "duration": 1.03, "effect": 1},
+            {"start_frame": 0, "end_frame": 30, "duration": 1.0, "effect": 0},
+            {"start_frame": 30, "end_frame": 60, "duration": 1.0, "effect": 1},
+            {"start_frame": 60, "end_frame": 90, "duration": 1.0, "effect": 1},
+            {"start_frame": 90, "end_frame": 120, "duration": 1.0, "effect": 1},
+            {"start_frame": 120, "end_frame": 150, "duration": 1.0, "effect": 1},
+            {"start_frame": 150, "end_frame": 180, "duration": 1.0, "effect": 1},
+            {"start_frame": 180, "end_frame": 210, "duration": 1.0, "effect": 1},
+            {"start_frame": 210, "end_frame": 241, "duration": 1.03, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-5e39_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 106, "duration": 3.53, "effect": 1},
+            {"start_frame": 106, "end_frame": 156, "duration": 1.67, "effect": 0},
+            {"start_frame": 156, "end_frame": 286, "duration": 4.33, "effect": 0},
+            {"start_frame": 286, "end_frame": 341, "duration": 1.83, "effect": 0},
+            {"start_frame": 341, "end_frame": 427, "duration": 2.87, "effect": 1},
+            {"start_frame": 427, "end_frame": 520, "duration": 3.1, "effect": 0},
+            {"start_frame": 520, "end_frame": 600, "duration": 2.67, "effect": 1},
+            {"start_frame": 0, "end_frame": 106, "duration": 3.53, "effect": 1},
+            {"start_frame": 106, "end_frame": 156, "duration": 1.67, "effect": 0},
+            {"start_frame": 156, "end_frame": 286, "duration": 4.33, "effect": 0},
+            {"start_frame": 286, "end_frame": 341, "duration": 1.83, "effect": 0},
+            {"start_frame": 341, "end_frame": 427, "duration": 2.87, "effect": 1},
+            {"start_frame": 427, "end_frame": 520, "duration": 3.1, "effect": 0},
+            {"start_frame": 520, "end_frame": 600, "duration": 2.67, "effect": 1}
+        ]
+    },
+    {
+        "filename": "LyricVideo_720P-739a_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 113, "duration": 3.77, "effect": 0},
+            {"start_frame": 113, "end_frame": 189, "duration": 2.53, "effect": 0},
+            {"start_frame": 189, "end_frame": 293, "duration": 3.47, "effect": 0},
+            {"start_frame": 293, "end_frame": 386, "duration": 3.1, "effect": 1},
+            {"start_frame": 386, "end_frame": 499, "duration": 3.77, "effect": 1},
+            {"start_frame": 499, "end_frame": 570, "duration": 2.37, "effect": 1},
+            {"start_frame": 570, "end_frame": 600, "duration": 1.0, "effect": 0},
+            {"start_frame": 0, "end_frame": 113, "duration": 3.77, "effect": 0},
+            {"start_frame": 113, "end_frame": 189, "duration": 2.53, "effect": 0},
+            {"start_frame": 189, "end_frame": 293, "duration": 3.47, "effect": 0},
+            {"start_frame": 293, "end_frame": 386, "duration": 3.1, "effect": 1},
+            {"start_frame": 386, "end_frame": 499, "duration": 3.77, "effect": 1},
+            {"start_frame": 499, "end_frame": 570, "duration": 2.37, "effect": 1},
+            {"start_frame": 570, "end_frame": 600, "duration": 1.0, "effect": 0}
+        ]
+    },
+    {
+        "filename": "HowTo_720P-7878_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 86, "duration": 2.87, "effect": 0},
+            {"start_frame": 86, "end_frame": 163, "duration": 2.57, "effect": 0},
+            {"start_frame": 163, "end_frame": 345, "duration": 6.07, "effect": 0},
+            {"start_frame": 345, "end_frame": 459, "duration": 3.8, "effect": 1},
+            {"start_frame": 459, "end_frame": 599, "duration": 4.67, "effect": 1},
+            {"start_frame": 0, "end_frame": 86, "duration": 2.87, "effect": 0},
+            {"start_frame": 86, "end_frame": 163, "duration": 2.57, "effect": 0},
+            {"start_frame": 163, "end_frame": 345, "duration": 6.07, "effect": 0},
+            {"start_frame": 345, "end_frame": 459, "duration": 3.8, "effect": 1},
+            {"start_frame": 459, "end_frame": 599, "duration": 4.67, "effect": 1}
+        ]
+    },
+    {
+        "filename": "CoverSong_720P-60d3_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 51, "duration": 1.7, "effect": 1},
+            {"start_frame": 51, "end_frame": 88, "duration": 1.23, "effect": 1},
+            {"start_frame": 88, "end_frame": 184, "duration": 3.2, "effect": 0},
+            {"start_frame": 184, "end_frame": 251, "duration": 2.23, "effect": 1},
+            {"start_frame": 251, "end_frame": 330, "duration": 2.63, "effect": 0},
+            {"start_frame": 330, "end_frame": 403, "duration": 2.43, "effect": 1},
+            {"start_frame": 403, "end_frame": 452, "duration": 1.63, "effect": 1},
+            {"start_frame": 452, "end_frame": 506, "duration": 1.8, "effect": 1},
+            {"start_frame": 506, "end_frame": 600, "duration": 3.13, "effect": 1},
+            {"start_frame": 0, "end_frame": 51, "duration": 1.7, "effect": 1},
+            {"start_frame": 51, "end_frame": 88, "duration": 1.23, "effect": 1},
+            {"start_frame": 88, "end_frame": 184, "duration": 3.2, "effect": 0},
+            {"start_frame": 184, "end_frame": 251, "duration": 2.23, "effect": 1},
+            {"start_frame": 251, "end_frame": 330, "duration": 2.63, "effect": 0},
+            {"start_frame": 330, "end_frame": 403, "duration": 2.43, "effect": 1},
+            {"start_frame": 403, "end_frame": 452, "duration": 1.63, "effect": 1},
+            {"start_frame": 452, "end_frame": 506, "duration": 1.8, "effect": 1},
+            {"start_frame": 506, "end_frame": 600, "duration": 3.13, "effect": 1}
+        ]
+    },
+    {
+        "filename": "MusicVideo_720P-44c1_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 43, "duration": 1.43, "effect": 1},
+            {"start_frame": 43, "end_frame": 113, "duration": 2.33, "effect": 0},
+            {"start_frame": 113, "end_frame": 219, "duration": 3.53, "effect": 1},
+            {"start_frame": 219, "end_frame": 325, "duration": 3.53, "effect": 0},
+            {"start_frame": 325, "end_frame": 411, "duration": 2.87, "effect": 1},
+            {"start_frame": 411, "end_frame": 533, "duration": 4.07, "effect": 1},
+            {"start_frame": 533, "end_frame": 600, "duration": 2.23, "effect": 1},
+            {"start_frame": 0, "end_frame": 43, "duration": 1.43, "effect": 1},
+            {"start_frame": 43, "end_frame": 113, "duration": 2.33, "effect": 0},
+            {"start_frame": 113, "end_frame": 219, "duration": 3.53, "effect": 1},
+            {"start_frame": 219, "end_frame": 325, "duration": 3.53, "effect": 0},
+            {"start_frame": 325, "end_frame": 411, "duration": 2.87, "effect": 1},
+            {"start_frame": 411, "end_frame": 533, "duration": 4.07, "effect": 1},
+            {"start_frame": 533, "end_frame": 600, "duration": 2.23, "effect": 1}
+        ]
+    },
+    {
+        "filename": "NewsClip_720P-23e0_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "LiveMusic_720P-0d9f_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 72, "duration": 2.4, "effect": 0},
+            {"start_frame": 72, "end_frame": 174, "duration": 3.4, "effect": 0},
+            {"start_frame": 174, "end_frame": 231, "duration": 1.9, "effect": 1},
+            {"start_frame": 231, "end_frame": 329, "duration": 3.27, "effect": 0},
+            {"start_frame": 329, "end_frame": 405, "duration": 2.53, "effect": 0},
+            {"start_frame": 405, "end_frame": 479, "duration": 2.47, "effect": 1},
+            {"start_frame": 479, "end_frame": 600, "duration": 4.03, "effect": 0},
+            {"start_frame": 0, "end_frame": 72, "duration": 2.4, "effect": 0},
+            {"start_frame": 72, "end_frame": 174, "duration": 3.4, "effect": 0},
+            {"start_frame": 174, "end_frame": 231, "duration": 1.9, "effect": 1},
+            {"start_frame": 231, "end_frame": 329, "duration": 3.27, "effect": 0},
+            {"start_frame": 329, "end_frame": 405, "duration": 2.53, "effect": 0},
+            {"start_frame": 405, "end_frame": 479, "duration": 2.47, "effect": 1},
+            {"start_frame": 479, "end_frame": 600, "duration": 4.03, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Sports_720P-2c06_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 54, "duration": 1.8, "effect": 1},
+            {"start_frame": 54, "end_frame": 136, "duration": 2.73, "effect": 1},
+            {"start_frame": 136, "end_frame": 195, "duration": 1.97, "effect": 1},
+            {"start_frame": 195, "end_frame": 262, "duration": 2.23, "effect": 1},
+            {"start_frame": 262, "end_frame": 314, "duration": 1.73, "effect": 0},
+            {"start_frame": 314, "end_frame": 395, "duration": 2.7, "effect": 1},
+            {"start_frame": 395, "end_frame": 457, "duration": 2.07, "effect": 1},
+            {"start_frame": 457, "end_frame": 533, "duration": 2.53, "effect": 1},
+            {"start_frame": 533, "end_frame": 599, "duration": 2.2, "effect": 0},
+            {"start_frame": 0, "end_frame": 54, "duration": 1.8, "effect": 1},
+            {"start_frame": 54, "end_frame": 136, "duration": 2.73, "effect": 1},
+            {"start_frame": 136, "end_frame": 195, "duration": 1.97, "effect": 1},
+            {"start_frame": 195, "end_frame": 262, "duration": 2.23, "effect": 1},
+            {"start_frame": 262, "end_frame": 314, "duration": 1.73, "effect": 0},
+            {"start_frame": 314, "end_frame": 395, "duration": 2.7, "effect": 1},
+            {"start_frame": 395, "end_frame": 457, "duration": 2.07, "effect": 1},
+            {"start_frame": 457, "end_frame": 533, "duration": 2.53, "effect": 1},
+            {"start_frame": 533, "end_frame": 599, "duration": 2.2, "effect": 0}
+        ]
+    },
+    {
+        "filename": "VerticalVideo_720P-42f2_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 66, "duration": 2.2, "effect": 1},
+            {"start_frame": 66, "end_frame": 255, "duration": 6.3, "effect": 0},
+            {"start_frame": 255, "end_frame": 318, "duration": 2.1, "effect": 1},
+            {"start_frame": 318, "end_frame": 600, "duration": 9.4, "effect": 0},
+            {"start_frame": 0, "end_frame": 66, "duration": 2.2, "effect": 1},
+            {"start_frame": 66, "end_frame": 255, "duration": 6.3, "effect": 0},
+            {"start_frame": 255, "end_frame": 318, "duration": 2.1, "effect": 1},
+            {"start_frame": 318, "end_frame": 600, "duration": 9.4, "effect": 0}
+        ]
+    },
+    {
+        "filename": "MusicVideo_720P-3698_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 165, "duration": 5.5, "effect": 0},
+            {"start_frame": 165, "end_frame": 249, "duration": 2.8, "effect": 1},
+            {"start_frame": 249, "end_frame": 376, "duration": 4.23, "effect": 0},
+            {"start_frame": 376, "end_frame": 448, "duration": 2.4, "effect": 1},
+            {"start_frame": 448, "end_frame": 600, "duration": 5.07, "effect": 1},
+            {"start_frame": 0, "end_frame": 165, "duration": 5.5, "effect": 0},
+            {"start_frame": 165, "end_frame": 249, "duration": 2.8, "effect": 1},
+            {"start_frame": 249, "end_frame": 376, "duration": 4.23, "effect": 0},
+            {"start_frame": 376, "end_frame": 448, "duration": 2.4, "effect": 1},
+            {"start_frame": 448, "end_frame": 600, "duration": 5.07, "effect": 1}
+        ]
+    },
+    {
+        "filename": "LiveMusic_720P-267b_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 405, "duration": 13.5, "effect": 1},
+            {"start_frame": 405, "end_frame": 600, "duration": 6.5, "effect": 1},
+            {"start_frame": 0, "end_frame": 405, "duration": 13.5, "effect": 1},
+            {"start_frame": 405, "end_frame": 600, "duration": 6.5, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Vlog_720P-2929_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 454, "duration": 15.13, "effect": 1},
+            {"start_frame": 454, "end_frame": 599, "duration": 4.83, "effect": 1},
+            {"start_frame": 0, "end_frame": 454, "duration": 15.13, "effect": 1},
+            {"start_frame": 454, "end_frame": 599, "duration": 4.83, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Vlog_720P-4e3d_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 56, "duration": 1.87, "effect": 1},
+            {"start_frame": 56, "end_frame": 295, "duration": 7.97, "effect": 1},
+            {"start_frame": 295, "end_frame": 349, "duration": 1.8, "effect": 1},
+            {"start_frame": 349, "end_frame": 600, "duration": 8.37, "effect": 0},
+            {"start_frame": 0, "end_frame": 56, "duration": 1.87, "effect": 1},
+            {"start_frame": 56, "end_frame": 295, "duration": 7.97, "effect": 1},
+            {"start_frame": 295, "end_frame": 349, "duration": 1.8, "effect": 1},
+            {"start_frame": 349, "end_frame": 600, "duration": 8.37, "effect": 0}
+        ]
+    },
+    {
+        "filename": "VR_720P-09ae_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 49, "duration": 1.63, "effect": 1},
+            {"start_frame": 49, "end_frame": 129, "duration": 2.67, "effect": 1},
+            {"start_frame": 129, "end_frame": 170, "duration": 1.37, "effect": 1},
+            {"start_frame": 170, "end_frame": 354, "duration": 6.13, "effect": 1},
+            {"start_frame": 0, "end_frame": 49, "duration": 1.63, "effect": 1},
+            {"start_frame": 49, "end_frame": 129, "duration": 2.67, "effect": 1},
+            {"start_frame": 129, "end_frame": 170, "duration": 1.37, "effect": 1},
+            {"start_frame": 170, "end_frame": 354, "duration": 6.13, "effect": 1}
+        ]
+    },
+    {
+        "filename": "LiveMusic_720P-58db_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 332, "duration": 11.07, "effect": 1},
+            {"start_frame": 332, "end_frame": 600, "duration": 8.93, "effect": 1},
+            {"start_frame": 0, "end_frame": 332, "duration": 11.07, "effect": 1},
+            {"start_frame": 332, "end_frame": 600, "duration": 8.93, "effect": 1}
+        ]
+    },
+    {
+        "filename": "MusicVideo_720P-4ad2_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 472, "duration": 15.73, "effect": 1},
+            {"start_frame": 472, "end_frame": 600, "duration": 4.27, "effect": 0},
+            {"start_frame": 0, "end_frame": 472, "duration": 15.73, "effect": 1},
+            {"start_frame": 472, "end_frame": 600, "duration": 4.27, "effect": 0}
+        ]
+    },
+    {
+        "filename": "VR_720P-339f_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 129, "duration": 4.3, "effect": 1},
+            {"start_frame": 129, "end_frame": 258, "duration": 4.3, "effect": 1},
+            {"start_frame": 258, "end_frame": 365, "duration": 3.57, "effect": 1},
+            {"start_frame": 365, "end_frame": 509, "duration": 4.8, "effect": 1},
+            {"start_frame": 509, "end_frame": 600, "duration": 3.03, "effect": 0},
+            {"start_frame": 0, "end_frame": 129, "duration": 4.3, "effect": 1},
+            {"start_frame": 129, "end_frame": 258, "duration": 4.3, "effect": 1},
+            {"start_frame": 258, "end_frame": 365, "duration": 3.57, "effect": 1},
+            {"start_frame": 365, "end_frame": 509, "duration": 4.8, "effect": 1},
+            {"start_frame": 509, "end_frame": 600, "duration": 3.03, "effect": 0}
+        ]
+    },
+    {
+        "filename": "HowTo_720P-6323_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 67, "duration": 2.23, "effect": 0},
+            {"start_frame": 67, "end_frame": 132, "duration": 2.17, "effect": 1},
+            {"start_frame": 132, "end_frame": 269, "duration": 4.57, "effect": 0},
+            {"start_frame": 269, "end_frame": 600, "duration": 11.03, "effect": 0},
+            {"start_frame": 0, "end_frame": 67, "duration": 2.23, "effect": 0},
+            {"start_frame": 67, "end_frame": 132, "duration": 2.17, "effect": 1},
+            {"start_frame": 132, "end_frame": 269, "duration": 4.57, "effect": 0},
+            {"start_frame": 269, "end_frame": 600, "duration": 11.03, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-4c87_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 91, "duration": 3.03, "effect": 1},
+            {"start_frame": 91, "end_frame": 172, "duration": 2.7, "effect": 1},
+            {"start_frame": 172, "end_frame": 225, "duration": 1.77, "effect": 0},
+            {"start_frame": 225, "end_frame": 302, "duration": 2.57, "effect": 1},
+            {"start_frame": 302, "end_frame": 367, "duration": 2.17, "effect": 0},
+            {"start_frame": 367, "end_frame": 447, "duration": 2.67, "effect": 0},
+            {"start_frame": 447, "end_frame": 600, "duration": 5.1, "effect": 0},
+            {"start_frame": 0, "end_frame": 91, "duration": 3.03, "effect": 1},
+            {"start_frame": 91, "end_frame": 172, "duration": 2.7, "effect": 1},
+            {"start_frame": 172, "end_frame": 225, "duration": 1.77, "effect": 0},
+            {"start_frame": 225, "end_frame": 302, "duration": 2.57, "effect": 1},
+            {"start_frame": 302, "end_frame": 367, "duration": 2.17, "effect": 0},
+            {"start_frame": 367, "end_frame": 447, "duration": 2.67, "effect": 0},
+            {"start_frame": 447, "end_frame": 600, "duration": 5.1, "effect": 0}
+        ]
+    },
+    {
+        "filename": "VerticalVideo_720P-7517_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1},
+            {"start_frame": 0, "end_frame": 600, "duration": 20.0, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-3eb4_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 78, "duration": 2.6, "effect": 1},
+            {"start_frame": 78, "end_frame": 255, "duration": 5.9, "effect": 1},
+            {"start_frame": 255, "end_frame": 345, "duration": 3.0, "effect": 1},
+            {"start_frame": 345, "end_frame": 600, "duration": 8.5, "effect": 0},
+            {"start_frame": 0, "end_frame": 78, "duration": 2.6, "effect": 1},
+            {"start_frame": 78, "end_frame": 255, "duration": 5.9, "effect": 1},
+            {"start_frame": 255, "end_frame": 345, "duration": 3.0, "effect": 1},
+            {"start_frame": 345, "end_frame": 600, "duration": 8.5, "effect": 0}
+        ]
+    },
+    {
+        "filename": "LyricVideo_720P-1c89_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 52, "duration": 1.73, "effect": 0},
+            {"start_frame": 52, "end_frame": 155, "duration": 3.43, "effect": 1},
+            {"start_frame": 155, "end_frame": 242, "duration": 2.9, "effect": 1},
+            {"start_frame": 242, "end_frame": 336, "duration": 3.13, "effect": 1},
+            {"start_frame": 336, "end_frame": 421, "duration": 2.83, "effect": 1},
+            {"start_frame": 421, "end_frame": 472, "duration": 1.7, "effect": 1},
+            {"start_frame": 472, "end_frame": 600, "duration": 4.27, "effect": 1},
+            {"start_frame": 0, "end_frame": 52, "duration": 1.73, "effect": 0},
+            {"start_frame": 52, "end_frame": 155, "duration": 3.43, "effect": 1},
+            {"start_frame": 155, "end_frame": 242, "duration": 2.9, "effect": 1},
+            {"start_frame": 242, "end_frame": 336, "duration": 3.13, "effect": 1},
+            {"start_frame": 336, "end_frame": 421, "duration": 2.83, "effect": 1},
+            {"start_frame": 421, "end_frame": 472, "duration": 1.7, "effect": 1},
+            {"start_frame": 472, "end_frame": 600, "duration": 4.27, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-094d_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 106, "duration": 3.53, "effect": 0},
+            {"start_frame": 106, "end_frame": 196, "duration": 3.0, "effect": 1},
+            {"start_frame": 196, "end_frame": 417, "duration": 7.37, "effect": 1},
+            {"start_frame": 417, "end_frame": 600, "duration": 6.1, "effect": 1},
+            {"start_frame": 0, "end_frame": 106, "duration": 3.53, "effect": 0},
+            {"start_frame": 106, "end_frame": 196, "duration": 3.0, "effect": 1},
+            {"start_frame": 196, "end_frame": 417, "duration": 7.37, "effect": 1},
+            {"start_frame": 417, "end_frame": 600, "duration": 6.1, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-4c6f_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 175, "duration": 5.83, "effect": 0},
+            {"start_frame": 175, "end_frame": 255, "duration": 2.67, "effect": 1},
+            {"start_frame": 255, "end_frame": 382, "duration": 4.23, "effect": 1},
+            {"start_frame": 382, "end_frame": 537, "duration": 5.17, "effect": 1},
+            {"start_frame": 537, "end_frame": 600, "duration": 2.1, "effect": 1},
+            {"start_frame": 0, "end_frame": 175, "duration": 5.83, "effect": 0},
+            {"start_frame": 175, "end_frame": 255, "duration": 2.67, "effect": 1},
+            {"start_frame": 255, "end_frame": 382, "duration": 4.23, "effect": 1},
+            {"start_frame": 382, "end_frame": 537, "duration": 5.17, "effect": 1},
+            {"start_frame": 537, "end_frame": 600, "duration": 2.1, "effect": 1}
+        ]
+    },
+    {
+        "filename": "LyricVideo_720P-068d_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 55, "duration": 1.83, "effect": 0},
+            {"start_frame": 55, "end_frame": 94, "duration": 1.3, "effect": 0},
+            {"start_frame": 94, "end_frame": 142, "duration": 1.6, "effect": 1},
+            {"start_frame": 142, "end_frame": 212, "duration": 2.33, "effect": 1},
+            {"start_frame": 212, "end_frame": 287, "duration": 2.5, "effect": 1},
+            {"start_frame": 287, "end_frame": 332, "duration": 1.5, "effect": 1},
+            {"start_frame": 332, "end_frame": 387, "duration": 1.83, "effect": 1},
+            {"start_frame": 387, "end_frame": 468, "duration": 2.7, "effect": 1},
+            {"start_frame": 468, "end_frame": 509, "duration": 1.37, "effect": 0},
+            {"start_frame": 509, "end_frame": 600, "duration": 3.03, "effect": 0},
+            {"start_frame": 0, "end_frame": 55, "duration": 1.83, "effect": 0},
+            {"start_frame": 55, "end_frame": 94, "duration": 1.3, "effect": 0},
+            {"start_frame": 94, "end_frame": 142, "duration": 1.6, "effect": 1},
+            {"start_frame": 142, "end_frame": 212, "duration": 2.33, "effect": 1},
+            {"start_frame": 212, "end_frame": 287, "duration": 2.5, "effect": 1},
+            {"start_frame": 287, "end_frame": 332, "duration": 1.5, "effect": 1},
+            {"start_frame": 332, "end_frame": 387, "duration": 1.83, "effect": 1},
+            {"start_frame": 387, "end_frame": 468, "duration": 2.7, "effect": 1},
+            {"start_frame": 468, "end_frame": 509, "duration": 1.37, "effect": 0},
+            {"start_frame": 509, "end_frame": 600, "duration": 3.03, "effect": 0}
+        ]
+    },
+    {
+        "filename": "Vlog_720P-60f8_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 47, "duration": 1.57, "effect": 1},
+            {"start_frame": 47, "end_frame": 151, "duration": 3.47, "effect": 1},
+            {"start_frame": 151, "end_frame": 209, "duration": 1.93, "effect": 0},
+            {"start_frame": 209, "end_frame": 279, "duration": 2.33, "effect": 1},
+            {"start_frame": 279, "end_frame": 327, "duration": 1.6, "effect": 1},
+            {"start_frame": 327, "end_frame": 396, "duration": 2.3, "effect": 1},
+            {"start_frame": 396, "end_frame": 450, "duration": 1.8, "effect": 0},
+            {"start_frame": 450, "end_frame": 599, "duration": 4.97, "effect": 0},
+            {"start_frame": 0, "end_frame": 47, "duration": 1.57, "effect": 1},
+            {"start_frame": 47, "end_frame": 151, "duration": 3.47, "effect": 1},
+            {"start_frame": 151, "end_frame": 209, "duration": 1.93, "effect": 0},
+            {"start_frame": 209, "end_frame": 279, "duration": 2.33, "effect": 1},
+            {"start_frame": 279, "end_frame": 327, "duration": 1.6, "effect": 1},
+            {"start_frame": 327, "end_frame": 396, "duration": 2.3, "effect": 1},
+            {"start_frame": 396, "end_frame": 450, "duration": 1.8, "effect": 0},
+            {"start_frame": 450, "end_frame": 599, "duration": 4.97, "effect": 0}
+        ]
+    },
+    {
+        "filename": "LiveMusic_720P-66df_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 599, "duration": 19.97, "effect": 1},
+            {"start_frame": 0, "end_frame": 599, "duration": 19.97, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Sports_720P-2c80_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 124, "duration": 4.13, "effect": 1},
+            {"start_frame": 124, "end_frame": 184, "duration": 2.0, "effect": 0},
+            {"start_frame": 184, "end_frame": 309, "duration": 4.17, "effect": 1},
+            {"start_frame": 309, "end_frame": 415, "duration": 3.53, "effect": 0},
+            {"start_frame": 415, "end_frame": 496, "duration": 2.7, "effect": 1},
+            {"start_frame": 496, "end_frame": 561, "duration": 2.17, "effect": 0},
+            {"start_frame": 561, "end_frame": 599, "duration": 1.27, "effect": 1},
+            {"start_frame": 0, "end_frame": 124, "duration": 4.13, "effect": 1},
+            {"start_frame": 124, "end_frame": 184, "duration": 2.0, "effect": 0},
+            {"start_frame": 184, "end_frame": 309, "duration": 4.17, "effect": 1},
+            {"start_frame": 309, "end_frame": 415, "duration": 3.53, "effect": 0},
+            {"start_frame": 415, "end_frame": 496, "duration": 2.7, "effect": 1},
+            {"start_frame": 496, "end_frame": 561, "duration": 2.17, "effect": 0},
+            {"start_frame": 561, "end_frame": 599, "duration": 1.27, "effect": 1}
+        ]
+    },
+    {
+        "filename": "Lecture_720P-7e40_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 322, "duration": 10.73, "effect": 1},
+            {"start_frame": 322, "end_frame": 537, "duration": 7.17, "effect": 1},
+            {"start_frame": 537, "end_frame": 600, "duration": 2.1, "effect": 1},
+            {"start_frame": 0, "end_frame": 322, "duration": 10.73, "effect": 1},
+            {"start_frame": 322, "end_frame": 537, "duration": 7.17, "effect": 1},
+            {"start_frame": 537, "end_frame": 600, "duration": 2.1, "effect": 1}
+        ]
+    },
+    {
+        "filename": "VerticalVideo_720P-665d_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 121, "duration": 4.03, "effect": 1},
+            {"start_frame": 121, "end_frame": 257, "duration": 4.53, "effect": 0},
+            {"start_frame": 257, "end_frame": 303, "duration": 1.53, "effect": 0},
+            {"start_frame": 303, "end_frame": 432, "duration": 4.3, "effect": 1},
+            {"start_frame": 432, "end_frame": 531, "duration": 3.3, "effect": 1},
+            {"start_frame": 531, "end_frame": 600, "duration": 2.3, "effect": 1},
+            {"start_frame": 0, "end_frame": 121, "duration": 4.03, "effect": 1},
+            {"start_frame": 121, "end_frame": 257, "duration": 4.53, "effect": 0},
+            {"start_frame": 257, "end_frame": 303, "duration": 1.53, "effect": 0},
+            {"start_frame": 303, "end_frame": 432, "duration": 4.3, "effect": 1},
+            {"start_frame": 432, "end_frame": 531, "duration": 3.3, "effect": 1},
+            {"start_frame": 531, "end_frame": 600, "duration": 2.3, "effect": 1}
+        ]
+    },
+    {
+        "filename": "VerticalVideo_720P-669d_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 599, "duration": 19.97, "effect": 1},
+            {"start_frame": 0, "end_frame": 599, "duration": 19.97, "effect": 1}
+        ]
+    },
+    {
+        "filename": "LyricVideo_720P-7f44_crf_10_ss_00_t_20.0.mp4",
+        "segments": [
+            {"start_frame": 0, "end_frame": 57, "duration": 1.9, "effect": 1},
+            {"start_frame": 57, "end_frame": 136, "duration": 2.63, "effect": 1},
+            {"start_frame": 136, "end_frame": 218, "duration": 2.73, "effect": 0},
+            {"start_frame": 218, "end_frame": 321, "duration": 3.43, "effect": 0},
+            {"start_frame": 321, "end_frame": 385, "duration": 2.13, "effect": 1},
+            {"start_frame": 385, "end_frame": 600, "duration": 7.17, "effect": 1},
+            {"start_frame": 0, "end_frame": 57, "duration": 1.9, "effect": 1},
+            {"start_frame": 57, "end_frame": 136, "duration": 2.63, "effect": 1},
+            {"start_frame": 136, "end_frame": 218, "duration": 2.73, "effect": 0},
+            {"start_frame": 218, "end_frame": 321, "duration": 3.43, "effect": 0},
+            {"start_frame": 321, "end_frame": 385, "duration": 2.13, "effect": 1},
+            {"start_frame": 385, "end_frame": 600, "duration": 7.17, "effect": 1}
+        ]
+    }
+]

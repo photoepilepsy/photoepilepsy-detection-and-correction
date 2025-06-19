@@ -1,0 +1,19 @@
+V8
+
+Preprocess 
+( ilk 4 celli çalıştırmak lazım, 
+sonra son cellin de outputunu kopyalayıp log_files klasöründe log_prepro dosyasına yazmak gerekli)
+
+logparser py çalışacak
+
+concat sonra split çalışacak 
+
+model 
+
+NOT: model şuan baya küçük backbone üstünde, hyper paramlar finetune olmamış ve çok basit bir transformer classifier ile çalışıyor hafta sonu bunu geliştireceğim.--DONE--
+
+
+Analytic kısmında folder patlerinde old_ ifadesi olmamalı çalıştırmak için. Analytic aynı pipeline ile oluşturulmuş eski bir data için peat neden kullanılamaz neden extreme şekilde noise atıyor onu gösteremek için. Tabi data creation pipeline ile labellanan datada da minimal bir noise var ama bu oran oldukça düşük. Peat ile labellama tamamen randoma yakın bir etki yaratıyor özellikle kısa süreli efektler görmediği için (efektlerin süresinin random olması bu işi baya kötü etkiliyor.)
+
+ipynblerin çalışması için kod içinde gömülü root dirlerinin setlenmesi gerekiyor.
+
